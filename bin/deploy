@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# cd to project directory
+cd "$(dirname "$BASH_SOURCE")"/..
+
+# move source code to server
+git push st.com master
+
+#update build
+ssh st.com 'cd sethtane.com/builds/production/www; git pull'

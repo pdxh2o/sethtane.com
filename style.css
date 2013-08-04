@@ -1,0 +1,334 @@
+/*
+ *  style.css
+ *  last revision - December 2009
+ *
+ 
+ Color system = hex base 16 numbers RGB one for each position (#RRGGBB long hand #RGB shorthand)
+ 
+ */
+
+/* Defaults ---------------------------- */
+ 
+*
+{
+ font-family: "Helvetica";
+ margin: 0px;
+ padding: 0px;
+ color: #000;
+}
+
+html
+{
+ background-color:#EFE9DB;
+}
+
+iframe
+{
+ border:none;
+ width:100%;
+}
+
+img
+{
+	
+}
+
+body
+{
+ text-align: center;
+ font-size: 90%;
+ letter-spacing: .01em;
+}
+
+div
+{
+
+}
+
+a
+{
+ color: #000;
+}
+
+a:hover
+{
+ 
+}
+
+a:visited
+{ 
+ 
+}
+
+/* Custom layout ---------------------------- */
+
+.center
+{
+ text-align: center;
+}
+
+.title 
+{
+ font-family: "Helvetica";
+ font-size: 170%;
+ padding-top:20px;
+ padding-bottom: 8px;
+ font-weight: bold; 
+}
+
+.subtitle 
+{
+ font-family: "Helvetica";
+ font-size: 190%;
+ font-weight: bold;
+}
+
+.decadeTitle
+{
+ border-bottom: 1px solid #222;
+ padding: 10px;
+ font-family: "Helvetica";
+ font-size: 120%;
+}
+
+.decadeItem
+{
+    font-size: 90%;
+    line-height: 3.5em;
+}
+
+.leftAligned
+{
+ text-align: left;
+ font-size: 120%;
+}
+
+.footer 
+{
+ padding-top: 40px;
+ padding-bottom:20px;
+}
+
+.footer #copyright {
+    font-size: 80%;
+    font-style: italic;
+    padding: 1.5em;
+}
+
+.footer a, .footer .divider {
+    display: inline-block;
+    font-size: 110%;
+}
+
+.footer .divider {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.footer #back {
+    display: block;
+    font-size: 80%;
+}
+
+.menu 
+{
+ margin-top:10px;
+ margin-bottom:20px; 
+}
+
+.menuItem
+{
+ font-family: "Helvetica";
+ margin-right:175px;
+ cursor: pointer;
+ text-decoration:underline;
+ font-size: 150%;
+}
+
+.lastMenuItem
+{
+ margin-right:0px;
+}
+
+/* Home page grid ---------------- */
+
+.homeGrid
+{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ min-height: 400px;
+}
+
+.gridLeft 
+{
+ margin-right:40px;
+}
+
+.gridRight 
+{
+
+}
+
+.gridTop 
+{
+ margin-bottom:40px;
+}
+
+.gridBottom
+{
+
+}
+
+/* generic tables with columns -------------- */
+
+.table
+{
+ display:table;
+}
+
+.column
+{
+ display:table-cell;
+ position:relative;
+ float:left;
+}
+
+/* main content columns -------------- */
+
+.main
+{
+ width: 780px;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:left;
+}
+
+.mainDecadesColumn
+{
+ width: 25%;
+}
+
+.mainThumbsColumn
+{
+ width: 75%;
+}
+
+.mainDecadesContent
+{
+    
+}
+
+.mainThumbsContent
+{
+ 
+}
+
+/* thumb content columns -------------- */
+
+.workItem
+{
+ display: table;
+ text-align: left;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 20px;
+ clear: both;
+ line-height: 1.3em;
+}
+
+.thumbnail
+{
+ display: table-cell;
+ margin-right: 15px;
+ float: left;
+ cursor: pointer;
+ border: 1px solid #000; 
+}
+
+.workDescription
+{
+ display: table-cell;
+ vertical-align: top;
+ font-size: 80%;
+}
+
+.workTitle
+{
+ font-weight: bold;
+ font-style: italic;
+}
+
+.slideInfo
+{
+ position: relative;
+ margin-right: 0px;
+ color:#aaa;
+}
+
+.aboutContent
+{
+ width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: left;
+}
+
+.aboutTitle
+{
+ font-weight: bold;
+ font-size: 100%;
+ text-transform: uppercase;
+ padding-top: 2em;
+ padding-bottom: 1em;
+}
+
+.newsContent
+{
+ width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: left;
+}
+
+.newsContent p {
+ padding-bottom: 1em;
+}
+
+.newsContent img {
+ width: 100%;
+}
+
+.slideshow
+{
+ display: none;
+ width: 100%;
+ text-align: center;
+}
+
+.slide
+{
+ display: none;
+ border: 0px solid #000;
+}
+
+.slideshowDescription
+{
+ 
+}
+
+.loading
+{
+ display: table;
+ position: absolute;
+ width: 100%;
+ height: 500px;
+ z-index: -1;
+}
+
+.loadingMessage
+{
+ display: table-cell;
+ vertical-align: middle;
+ font-size: 120%;
+}
+
