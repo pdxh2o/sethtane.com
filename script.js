@@ -17,10 +17,10 @@ slideDelay = 4000;
 fadeDelay = 300;
 
 // preload slideshow images
-new Image().src = 'prev.png';
-new Image().src = 'play.png';
-new Image().src = 'stop.png';
-new Image().src = 'next.png';
+new Image().src = '/prev.png';
+new Image().src = '/play.png';
+new Image().src = '/stop.png';
+new Image().src = '/next.png';
 
 //
 //    Event handlers
@@ -35,7 +35,7 @@ $(document).ready(slideshowSetup);
 
 function ready()
 {
-      if(parent != window)
+      if(1 || parent != window)
       {
             body = $(getRoot().document.getElementsByTagName("body")[0]);
             var frame = $(parent.document.getElementById("frame"));
@@ -84,15 +84,15 @@ function slideshowSetup()
 
             var description = $("<span class='slideshowDescription'></span>");
             var controls = $("<span class='slideshowControls'>");
-            var btn = $("<img src='stop.png' />").css({
+            var btn = $("<img src='/stop.png' />").css({
                   "vertical-align" : "middle",
                   "cursor" : "pointer",
                   "margin-left" : "10px",
                   "height" : 18,
                   "opacity" : 0.8
             });
-            var pbtn = btn.clone().attr('src', 'prev.png');
-            var nbtn = btn.clone().attr('src', 'next.png');
+            var pbtn = btn.clone().attr('src', '/prev.png');
+            var nbtn = btn.clone().attr('src', '/next.png');
             
             holder.append(leftHolder.append(description));
             holder.append(rightHolder.append(controls));
@@ -112,14 +112,14 @@ function slideshowSetup()
                   if(activeSlideshow == null)
                   {
                         activeSlideshow = setInterval("nextSlide()", slideDelay);
-                        $(this).attr("src", "stop.png");
+                        $(this).attr("src", "/stop.png");
                         //$(".slideshowControls").html("<i>Pause</i>");
                   }
                   else
                   {
                         clearInterval(activeSlideshow);
                         activeSlideshow = null;
-                        $(this).attr("src", "play.png");
+                        $(this).attr("src", "/play.png");
                         //$(".slideshowControls").html("<i>Play</i>");
                   }
             };
