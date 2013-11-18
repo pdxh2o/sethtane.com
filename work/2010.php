@@ -3,7 +3,28 @@ include('work_header.html');
 ?>
 
 <div class="decadeTitle leftAligned">2010's</div>
-
+	
+	<div class="workItem">
+		<img class="thumbnail" src="/paintings/Marcy AvenueT.jpg" />
+		<div class="workDescription">
+			<span class="workTitle">Marcy Avenue</span><br/>
+			<span class="workDate">2013 </span><br/>
+			<span class="workSize">6-3/4" x 10"</span><br/>
+			<span class="workMedium">Oil on panel</span>
+		</div>
+	</div>
+	
+	<div class="workItem">
+		<img class="thumbnail" src="/paintings/GYROT.jpg" />
+		<div class="workDescription">
+			<span class="workTitle">GYRO</span><br/>
+			<span class="workDate">2013 </span><br/>
+			<span class="workSize">6-3/4" x 10"</span><br/>
+			<span class="workMedium">Oil on panel</span>
+		</div>
+	</div>
+	
+	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/Lost StopT.jpg" />
 		<div class="workDescription">
