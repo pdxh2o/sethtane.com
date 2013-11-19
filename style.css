@@ -298,6 +298,13 @@ a:visited
  width: 100%;
 }
 
+.newsContent hr {
+ border: none;
+ background-color: #000;
+ height: 1px;
+ margin-bottom: 4em;
+}
+
 .slideshow
 {
  display: none;
