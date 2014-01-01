@@ -29,10 +29,10 @@
             <div class="title">SETH TANE</div>
             <div class="subtitle">AMERICAN PAINTING</div>
             <div class="menu">
-                  <a href="index.html" class="menuItem">Home</a>
-                  <a href="work" class="menuItem">Work</a>
-                  <a href="about.html" class="menuItem">About</a>
-		  <a href="news.html" class="menuItem lastMenuItem">News</a>
+                  <a href="/" class="menuItem">Home</a>
+                  <a href="/work" class="menuItem">Work</a>
+                  <a href="/about.html" class="menuItem">About</a>
+		  <a href="/news.html" class="menuItem lastMenuItem">News</a>
             </div>
 
             <!-- loader -->
