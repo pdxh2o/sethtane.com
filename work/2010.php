@@ -10,7 +10,8 @@ include('work_header.html');
 			<span class="workTitle">Over the Hackensack</span><br/>
 			<span class="workDate">2013 </span><br/>
 			<span class="workSize">6-3/4" x 10"</span><br/>
-			<span class="workMedium">Oil on panel</span>
+			<span class="workMedium">Oil on panel</span><br>
+			<?php if (isset($_COOKIE['vip'])) { ?><span class="workPrice">$1,500</span><?php } ?>
 		</div>
 	</div>
 	

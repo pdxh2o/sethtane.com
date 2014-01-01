@@ -1,3 +1,8 @@
+<?php
+	if (isset($_GET['vip'])) {
+		setcookie('vip', 'true');
+	}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
 <html>
 
