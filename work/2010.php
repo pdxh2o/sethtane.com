@@ -3,7 +3,7 @@ include('work_header.html');
 ?>
 
 <div class="decadeTitle leftAligned">2010's</div>
-	
+	</div>
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/5th / BryantT.jpg" />
 		<div class="workDescription">
