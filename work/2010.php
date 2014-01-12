@@ -4,16 +4,7 @@ include('work_header.html');
 
 <div class="decadeTitle leftAligned">2010's</div>
 	
-	<div class="workItem">
-		<img class="thumbnail" src="/paintings/34th StreetCT.jpg" />
-		<div class="workDescription">
-			<span class="workTitle">34th Street C</span><br/>
-			<span class="workDate">2013 </span><br/>
-			<span class="workSize">6-3/4" x 10"</span><br/>
-			<span class="workMedium">Oil on panel</span><br>
-			<?php if (isset($_COOKIE['vip'])) { ?><span class="workPrice">$1,500</span><?php } ?>
-		</div>
-	</div>
+	
 	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/HackensackT.jpg" />
