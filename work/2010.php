@@ -15,16 +15,6 @@ include('work_header.html');
 		</div>
 	</div>
 	
-	<div class="workItem">
-		<img class="thumbnail" src="/paintings/5th/BryantT.jpg" />
-		<div class="workDescription">
-			<span class="workTitle">5th / Bryant</span><br/>
-			<span class="workDate">2014 </span><br/>
-			<span class="workSize">6-3/4" x 10"</span><br/>
-			<span class="workMedium">Oil on panel</span><br>
-			<?php if (isset($_COOKIE['vip'])) { ?><span class="workPrice">$1,500</span><?php } ?>
-		</div>
-	</div>
 	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/HackensackT.jpg" />
