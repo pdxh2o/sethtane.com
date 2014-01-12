@@ -15,7 +15,6 @@ include('work_header.html');
 		</div>
 	</div>
 	
-	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/34th Street CT.jpg" />
 		<div class="workDescription">
