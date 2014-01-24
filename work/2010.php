@@ -12,7 +12,7 @@ include('work_header.html');
 			<span class="workSize">6-3/4" x 10"</span><br/>
 			<span class="workMedium">Oil on panel</span>
 		</div>
-	</div>	
+	</div>
 	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/Lonely PlatformsT.jpg" />
