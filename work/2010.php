@@ -12,7 +12,7 @@ include('work_header.html');
 			<span class="workSize">6-3/4" x 10"</span><br/>
 			<span class="workMedium">Oil on panel</span>
 		</div>
-	</di
+	</div>
 	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/Empire StateT.jpg" />
@@ -22,7 +22,7 @@ include('work_header.html');
 			<span class="workSize">6-3/4" x 10"</span><br/>
 			<span class="workMedium">Oil on panel</span>
 		</div>
-	</di
+	</div>
 	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/7th AvT.jpg" />
