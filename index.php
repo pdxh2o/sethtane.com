@@ -90,7 +90,7 @@
             <div class="footer">
 		  <a href="mailto:seth@sethtane.com" title="contact by email">Contact</a>
 		  <span class="divider">|</span>
-		  <a href="https://www.sendicate.net/subscribe/cixxpi" title="subscribe to mailing list" target="_blank">Subscribe</a>
+		  <a href="https://confirmsubscription.com/h/d/4F15D4AD823FB03E" title="subscribe to mailing list" target="_blank">Subscribe</a>
 		  <div id="copyright">All Content &copy; 2009 All Rights Reserved</div>
 	    </div>
 			
