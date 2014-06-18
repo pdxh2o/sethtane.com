@@ -5,7 +5,7 @@ include('work_header.html');
 <div class="decadeTitle leftAligned">2010's</div>
 	
 	<div class="workItem">
-		<img class="thumbnail" src="/paintings/Coalinga 148T.jpg" />
+		<img class="thumbnail" src="/paintings/Coalinga-148T.jpg" />
 		<div class="workDescription">
 			<span class="workTitle">Coalinga 148</span><br/>
 			<span class="workDate">2014 </span><br/>
