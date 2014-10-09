@@ -4,7 +4,7 @@ include('work_header.html');
 
 <div class="decadeTitle leftAligned">2010's</div>
 	
-		<div class="workItem">
+	<div class="workItem">
 		<img class="thumbnail" src="/paintings/on Many LevelsT.jpg" />
 		<div class="workDescription">
 			<span class="workTitle">On Many Levels</span><br/>
@@ -12,7 +12,7 @@ include('work_header.html');
 			<span class="workSize">6-3/4" x 10"</span><br/>
 			<span class="workMedium">Oil on panel</span>
 		</div>
-	</div>
+	</div>	
 	
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/Nevada HighwayT.jpg" />
