@@ -5,6 +5,16 @@ include('work_header.html');
 <div class="decadeTitle leftAligned">2010's</div>
 	
 	<div class="workItem">
+		<img class="thumbnail" src="/paintings/SeatrainT.jpg" />
+		<div class="workDescription">
+			<span class="workTitle">Seatrain</span><br/>
+			<span class="workDate">2015 </span><br/>
+			<span class="workSize">24" x 36"</span><br/>
+			<span class="workMedium">Oil on panel</span>
+		</div>
+	</div>
+	
+	<div class="workItem">
 		<img class="thumbnail" src="/paintings/Back RubT.jpg" />
 		<div class="workDescription">
 			<span class="workTitle">Back Rub</span><br/>
