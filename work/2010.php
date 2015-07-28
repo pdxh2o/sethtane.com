@@ -17,7 +17,7 @@ include('work_header.html');
 	<div class="workItem">
 		<img class="thumbnail" src="/paintings/Dollar SliceT.jpg" />
 		<div class="workDescription">
-			<span class="workTitle">Dollar Slice (in progress)</span><br/>
+			<span class="workTitle">Dollar Slice</span><br/>
 			<span class="workDate">2015 </span><br/>
 			<span class="workSize">48" x 72"</span><br/>
 			<span class="workMedium">Oil on panel</span>
