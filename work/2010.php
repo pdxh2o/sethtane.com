@@ -15,7 +15,7 @@ include('work_header.html');
 	</div>
 	
 	<div class="workItem">
-		<img class="thumbnail" src="/paintings/Dollar SliceT.jpg" />
+		<img class="thumbnail" src="/paintings/Dollar Slice1T.jpg" />
 		<div class="workDescription">
 			<span class="workTitle">Dollar Slice</span><br/>
 			<span class="workDate">2015 </span><br/>
