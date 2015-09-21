@@ -16,7 +16,7 @@
             <script type="text/javascript" src="jquery.js"></script>
             <script type="text/javascript" src="script.js"></script>
 			<META name="KeyWords" content="NYC subway painting, subway, subway paintings, subway tunnel, nyc subway tunnel painting, food carts, ships, ship paintings, cargo ship, railroad painting, contemporary maritime painting, new american painting, marine paintings, industrial paintings, urban painting, urban landscape, urban industrial landscape,new american representational painting, San Francisco cityscape, Chinatown, S.F., San Francisco, Portland, Oregon, trolley, realist painting, pizza">
-		<link rel="icon" href="/path/to/favicon.png">
+		<link rel="icon" href="/favicon.png">
 		
 <meta name="description=" content="powerful, colorful, contemporary oil paintings of urban, industrial, urban and maritime subjects, including ships, the nyc subway, food carts, railroads, and urban crowds">
 
