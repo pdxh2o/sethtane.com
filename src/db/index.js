@@ -43,14 +43,21 @@ DB.prototype.fetch = function (cb) {
     for (var item in data) {
       item = data[item]
       for (var field in item) {
-        field = item[field]
-        if (Array.isArray(field)) {
-          for (var i = 0; i < field.length; i++) {
-            var subvalue = field[i]
+        var value = item[field]
+        if (Array.isArray(value)) {
+          var resolved = []
+          for (var i = 0; i < value.length; i++) {
+            var subvalue = value[i]
             if (subvalue.sys) {
-              field[i] = data[subvalue.sys.id]
+              subvalue = data[subvalue.sys.id]
+              if (subvalue) {
+                resolved.push(subvalue)
+              }
+            } else {
+              resolved.push(subvalue)
             }
           }
+          item[field] = resolved
         }
       }
     }
