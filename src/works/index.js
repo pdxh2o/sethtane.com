@@ -9,8 +9,7 @@ function WorksView () {
 }
 
 WorksView.prototype.show = function (r) {
-  var selection = r.location.query.theme || ''
-
+  var filter = r.location.query.theme || ''
   var themes = db.data['yqjJs1SH60YQUs6g4sQ4E'].items.map(function (theme, i) {
     return {
       'a': {
@@ -19,7 +18,7 @@ WorksView.prototype.show = function (r) {
           href: i === 0 ? '?' : '?theme=' + theme.title
         },
         _class: {
-          'hover': selection ? selection === theme.title : i === 0
+          'hover': filter ? filter === theme.title : i === 0
         }
       }
     }
@@ -29,15 +28,18 @@ WorksView.prototype.show = function (r) {
     return db.index['works'][id]
   }).sort(function (a, b) {
     return new Date(b.date) - new Date(a.date)
-  })
-
-  works = works.map(function (work) {
+  }).map(function (work) {
     var themes = work.themes ? work.themes.map(function (c) { return c.title }).join(',') : ''
     return {
       _class: {
-        'hidden': selection && !themes.match(selection)
+        'hidden': filter && !themes.match(filter)
       },
-      img: {
+      'a': {
+        _attr: {
+          href: '/work/' + work.id
+        }
+      },
+      'img': {
         _attr: {
           src: work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl.replace('.j', 'T.j') : null
         },
@@ -55,11 +57,39 @@ WorksView.prototype.show = function (r) {
     }
   })
 
+  var single = null
+  var pathname = window.location.pathname
+  var parts = pathname.split('/')
+  if (parts.length >= 3) {
+    single = db.data[parts[2]]
+  }
+
   hg(this.el, {
     _class: {
-      active: selection
+      active: filter
     },
     '.theme': themes,
-    '.work': works
+    '.work': works,
+    '#menu': {
+      _class: {
+        hidden: single
+      }
+    },
+    '#index': {
+      _class: {
+        hidden: single
+      }
+    },
+    '#single': single ? {
+      'img': {
+        _attr: {
+          src: process.env.CDN_URL + single.attachmentUrl
+        }
+      },
+      '#title': single.title,
+      '#date': new Date(single.date).getFullYear(),
+      '#medium': single.medium,
+      '#dimensions': single.dimensions
+    } : null
   })
 }

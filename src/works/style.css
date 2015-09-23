@@ -1,4 +1,4 @@
-#works-index {
+#works {
   display: flex;
   flex-grow: 1;
   margin-top: 30px;
@@ -7,22 +7,22 @@
   margin-right: auto;
 }
 
-#works-index #themes {
+#works #menu {
   display: flex;
   flex-direction: column;
   margin-right: 0px;
 }
 
-#works-index #themes li {
+#works #menu li {
   margin-right: 5px;
   margin-bottom: 20px;
 }
 
-#works-index #themes li:last-of-type {
+#works #menu li:last-of-type {
   margin-right: 0;
 }
 
-#works-index #themes li a {
+#works #menu li a {
   display: table;
   border-bottom: 2px solid transparent;
   text-transform: uppercase;
@@ -32,34 +32,61 @@
   letter-spacing: 1px;
 }
 
-#works-index #themes li a:hover,
-#works-index #themes li a.hover {
+#works #menu li a:hover,
+#works #menu li a.hover {
   border-bottom: 2px solid #111;
 }
 
-#works-index #works {
+#works #index {
   width: 400px;
   margin: 0;
   margin-left: 60px;
 }
 
-#works-index .work {
+#works #index .work {
   display: flex;
   margin: auto;
   margin-bottom: 20px;
 }
 
-#works-index .work img {
+#works #index .work a {
+  border: 0;
+}
+
+#works #index .work a:hover {
+  border: 0;
+}
+
+#works #index .work img {
   display: block;
   margin-right: 10px;
   border: 1px solid #111;
 }
 
-#works-index .work #info {
+#works #index .work #meta {
   font-size: 12px;
   line-height: 1.5;
 }
-#works-index .work #title {
+
+#works #index .work #meta #title {
   font-weight: bold;
+  font-style: italic;
+}
+
+#works #single img {
+  border: 1px solid #111;
+}
+
+#works #single #meta {
+  display: flex;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#works #single #meta > * {
+  margin-right: 15px;
+}
+
+#works #single #meta #title {
   font-style: italic;
 }
