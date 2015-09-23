@@ -6,6 +6,8 @@ var db = require('../db')
 
 function WorksView () {
   this.el = hg(template)
+  this._onscroll = this._onscroll.bind(this)
+  document.addEventListener('scroll', this._onscroll)
 }
 
 WorksView.prototype.show = function (r) {
@@ -61,12 +63,19 @@ WorksView.prototype.show = function (r) {
   var pathname = window.location.pathname
   var parts = pathname.split('/')
   if (parts.length >= 3) {
-    single = db.data[parts[2]]
+    single = this._single = db.data[parts[2]]
+  } else {
+    delete this._single
+    if (this._lastScroll) {
+      setTimeout(function () {
+        document.body.scrollTop = this._lastScroll
+      }.bind(this))
+    }
   }
 
   hg(this.el, {
     _class: {
-      active: filter
+      'active': filter
     },
     '.theme': themes,
     '.work': works,
@@ -80,16 +89,29 @@ WorksView.prototype.show = function (r) {
         hidden: single
       }
     },
-    '#single': single ? {
+    '#single': {
+      _class: {
+        hidden: !single
+      },
       'img': {
         _attr: {
-          src: process.env.CDN_URL + single.attachmentUrl
+          src: single ? process.env.CDN_URL + single.attachmentUrl : null
         }
       },
-      '#title': single.title,
-      '#date': new Date(single.date).getFullYear(),
-      '#medium': single.medium,
-      '#dimensions': single.dimensions
-    } : null
+      '#title': single && single.title,
+      '#date': single && new Date(single.date).getFullYear(),
+      '#medium': single && single.medium,
+      '#dimensions': single && single.dimensions
+    }
   })
+}
+
+WorksView.prototype._onscroll = function (evt) {
+  if (!this._single) {
+    this._lastScroll = document.body.scrollTop
+  }
+}
+
+WorksView.prototype.hide = function () {
+  document.removeEventListener('scroll', this._onscroll)
 }

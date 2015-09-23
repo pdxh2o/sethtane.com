@@ -11,77 +11,93 @@ var templates = {
   news: require('../news')
 }
 
+PageView.reuse = true
+
 function PageView () {
   this.el = hg(template)
 }
 
 PageView.prototype.show = function (r) {
-  if (this.data) {
-    this.templateView && this.templateView.show(r)
-    return
-  } else {
-    var page = this.data = this.findByURL(window.location.pathname)
-  }
+  var page = this.findByURL(window.location.pathname)
+
+  hg(this.el, {
+    '#contents': {
+      _class: {
+        hidden: page.template
+      },
+    },
+    '#template': {
+      _class: {
+        hidden: !page.template
+      }
+    },
+    'section': (page.contents || []).map(function (block) {
+      if (block.type === 'works') {
+        return {
+          '#title': null,
+          '#image': block.attachmentUrl ? {
+            'img': {
+              _attr: {
+                src: process.env.CDN_URL + block.attachmentUrl
+              }
+            }
+          } : null,
+          '#work-meta #title': block.title,
+          '#work-meta #date': new Date(block.date).getFullYear(),
+          '#work-meta #dimensions': block.dimensions,
+          '#work-meta #medium': block.medium,
+          '#caption': null,
+          '#text': null
+        }
+      } else if (block.type === 'images') {
+        return {
+          '#title': null,
+          '#image': block.attachmentUrl ? {
+            'img': {
+              _attr: {
+                src: process.env.CDN_URL + block.attachmentUrl
+              }
+            }
+          } : null,
+          '#work-meta': null,
+          '#caption': block.caption ? {
+            _html: md(block.caption)
+          } : null,
+          '#text': null
+        }
+      } else if (block.type === 'text-blocks') {
+        return {
+          '#title': block.title,
+          '#image': null,
+          '#work-meta': null,
+          '#caption': null,
+          '#text': block.text ? {
+            _html: md(block.text)
+          } : null
+        }
+      } else {
+        return {
+          '#title': '-- ' + block.type + ' --'
+        }
+      }
+    })
+  })
 
   if (page.template) {
     var TemplateView = templates[page.template.toLowerCase()]
+    if (this.templateView) {
+      if (this.templateView instanceof TemplateView) {
+        this.templateView.show(r)
+        return
+      } else {
+        this.hide()
+      }
+    }
     this.templateView = new TemplateView()
-    this.el.innerHTML = ''
-    this.el.appendChild(this.templateView.el)
+    hg(this.el, { '#template': this.templateView.el })
     this.templateView.show(r)
   } else {
-    hg(this.el, {
-      '#contents': page.contents.map(function (block) {
-        if (block.type === 'works') {
-          return {
-            '#title': null,
-            '#image': block.attachmentUrl ? {
-              'img': {
-                _attr: {
-                  src: process.env.CDN_URL + block.attachmentUrl
-                }
-              }
-            } : null,
-            '#work-meta #title': block.title,
-            '#work-meta #date': new Date(block.date).getFullYear(),
-            '#work-meta #dimensions': block.dimensions,
-            '#work-meta #medium': block.medium,
-            '#caption': null,
-            '#text': null
-          }
-        } else if (block.type === 'images') {
-          return {
-            '#title': null,
-            '#image': block.attachmentUrl ? {
-              'img': {
-                _attr: {
-                  src: process.env.CDN_URL + block.attachmentUrl
-                }
-              }
-            } : null,
-            '#work-meta': null,
-            '#caption': block.caption ? {
-              _html: md(block.caption)
-            } : null,
-            '#text': null
-          }
-        } else if (block.type === 'text-blocks') {
-          return {
-            '#title': block.title,
-            '#image': null,
-            '#work-meta': null,
-            '#caption': null,
-            '#text': block.text ? {
-              _html: md(block.text)
-            } : null
-          }
-        } else {
-          return {
-            '#title': '-- ' + block.type + ' --'
-          }
-        }
-      })
-    })
+    this.hide()
   }
 }
 
@@ -99,8 +115,10 @@ PageView.prototype.findByURL = function (url) {
   }
 }
 
-PageView.prototype.hide = function () {
-  if (this.templateView && this.templateView.hide) {
-    this.templateView.hide()
+PageView.prototype.hide = function (r) {
+  if (this.templateView) {
+    this.templateView.hide && this.templateView.hide(r)
+    this.templateView.el.parentNode.removeChild(this.templateView.el)
+    delete this.templateView
   }
 }
