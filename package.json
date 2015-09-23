@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "www.sethtane.com",
   "scripts": {
-    "dev": ". env.sh && dev",
-    "build": ". env.sh && build-css && build-js",
+    "dev": ". ./env.sh && dev",
+    "build": ". ./env.sh && build-css && build-js",
     "start": "npm run build && app-server",
-    "migrate": ". env.sh && node bin/migrate.js",
-    "migrate-field": ". env.sh && node bin/migrate-field.js"
+    "migrate": ". ./env.sh && node bin/migrate.js",
+    "migrate-field": ". ./env.sh && node bin/migrate-field.js"
   },
   "dependencies": {
     "build-css": "jessetane/build-css",
