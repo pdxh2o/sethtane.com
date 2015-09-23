@@ -1,0 +1,22 @@
+#wrapper {
+  padding: 20px;
+  min-height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-outlet {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer #copyright {
+  font-size: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,6330 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 191,
+  "skip": 0,
+  "limit": 1000,
+  "items": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "39AMe6BdluY2cmE8wccCYc"
+          }
+        },
+        "id": "7jzFkEAAUgIomkke0yy4gC",
+        "revision": 4,
+        "createdAt": "2015-09-18T14:49:13.137Z",
+        "updatedAt": "2015-09-18T16:54:12.852Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Marine",
+        "attachmentUrl": "/paintings/Atlantic-Queen.jpg",
+        "order": 5
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "39AMe6BdluY2cmE8wccCYc"
+          }
+        },
+        "id": "4voxS9Wm9asOGcISuWEGQi",
+        "revision": 4,
+        "createdAt": "2015-09-18T15:02:13.018Z",
+        "updatedAt": "2015-09-18T16:54:33.584Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "People",
+        "attachmentUrl": "/paintings/Sabrett.jpg",
+        "order": 1
+      }
+    },
+    {
+      "fields": {
+        "title": "Rural",
+        "attachmentUrl": "/paintings/Nevada Highway.jpg",
+        "order": 3
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "39AMe6BdluY2cmE8wccCYc"
+          }
+        },
+        "id": "5HXYWsj1IcMG4iCoAUe2aE",
+        "revision": 7,
+        "createdAt": "2015-09-03T03:13:55.048Z",
+        "updatedAt": "2015-09-18T16:58:38.955Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "39AMe6BdluY2cmE8wccCYc"
+          }
+        },
+        "id": "3Qyv6r72OQsAGQgo0sWSK4",
+        "revision": 5,
+        "createdAt": "2015-09-18T14:20:37.639Z",
+        "updatedAt": "2015-09-18T16:58:11.170Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Urban",
+        "attachmentUrl": "/paintings/Empire State.jpg",
+        "order": 2
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "39AMe6BdluY2cmE8wccCYc"
+          }
+        },
+        "id": "4EgjXiO06cC6MGEaSEu0gq",
+        "revision": 3,
+        "createdAt": "2015-09-18T15:02:32.191Z",
+        "updatedAt": "2015-09-18T16:57:29.264Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Transit",
+        "attachmentUrl": "/paintings/7th Av.jpg",
+        "order": 4
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "65plqRTMk0GGkIScgAk0s8",
+        "revision": 1,
+        "createdAt": "2015-09-21T22:19:08.020Z",
+        "updatedAt": "2015-09-21T22:19:08.020Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "text": "Several years ago I was looking to find ways to show galleries and collectors my work that went beyond the usual low resolution web and email formats. Online viewing is a pale comparison to the experience of seeing all the detail and nuances of the actual paintings. Then I hit upon the idea of the Hand Held Gallery. The first version was able to hold four of my small framed oils in an aluminum case I built that had clear plastic sides. When my solo show was up for six weeks in the Flatiron district last spring I used to regularly walk across town on 26th street from my apartment in Chelsea to the gallery carrying the case. As I'd stroll past the lines of people waiting to be in the studio audiences where several television shows are filmed, including the Rachael Ray and Wendy Williams programs, each time several women would ask where they could get a purse like that...\n\nI began to realize I was a performer in a kind of conceptual dialog. Once I got tuned into it, I saw that certain kinds of people would begin looking at the unusual case from as far as half a block away. If I followed their gaze and made eye contact, by the time we were within range we had already established a connection that transcended the well known bubble of personal space nearly all New Yorkers maintain to cope with the crush. A smile and a subtle twist of the case to expose the contents invariably resulted in a closer look, and frequently a conversation wherein I could give the viewer a short explanation and a postcard. Priceless.\n\nThe four-banger was a little heavy to carry, and the two paintings in the middle hidden, so I tweaked the program by building a new version set up for just two paintings back-to-back in a clear polycarbonate box. This version has been even more effective, since it can be slipped into a day pack when it would be best kept hidden and employed when the time and location are optimal. I select the \"show\" of the two paintings to be featured based on my plans for the day, and am never dissapointed with the results. As a conversation starter and a way to sidestep the barriers we tend to erect against unwanted intrusion it's a secret smart weapon, always ready for action. On the subway or train, walking the streets, viewing work in galleries and museums, it earns its keep and makes friends everywhere. \n\nFor those of you in the Portland, Oregon area, I have 30 paintings up at a large shared workspace in the Pearl District. Please contact me directly for information about this exhibit. My work can also be seen at the following galleries:\n\n[Cavailer Galleries](http://www.cavaliergalleries.com/), NY, NY and Greenwich, CT Cavalier\n\nHelena Fox Fine Art, Charleston, SC Helena Fox\n\nModernism Gallery, San Francisco, CA Modernism\n\nAnd as always, you can also contact me directly: Seth Tane"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "59ta0rmIx2qGQ8u2caiIQw"
+          }
+        },
+        "id": "25dyM6zlJ28AM8Giok6sIK",
+        "revision": 1,
+        "createdAt": "2015-09-21T22:13:19.442Z",
+        "updatedAt": "2015-09-21T22:13:19.442Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "The Hand Held Gallery MKII at Union Square station",
+        "attachmentUrl": "/paintings/HHG.jpg",
+        "keywords": [
+          "box",
+          "nyc",
+          "union square",
+          "MKII"
+        ]
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "C0Bpmls5Ms4AO4EaSYUsG",
+        "revision": 1,
+        "createdAt": "2015-09-21T22:31:12.411Z",
+        "updatedAt": "2015-09-21T22:31:12.411Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "text": "My latest large painting is part of an ongoing series of oils and a watercolor I began in 1979 about this dislocation. Living in and working in Portland while visualizing elements and realities of NYC's intensity has always given me a curiously perverse thrill, a kind of best of both worlds. Although I spent my formative years in and around New York, I also felt inexplicably drawn to the west from my earliest memories and prefer it as a base of operations ...with my forays into the grit, density and overloads of the city taken in measured doses for added stimulation as necessary.\n\nThe background here is just off state route 14 near Dallesport, Washington overlooking the Columbia River. I was able to drive up a gravel road and climb over the barbed wire fence to wander through the rocky rangeland so I could get just the right point of view and and sun angle to match my library of subway entrance reference photos.\n\nThe oldest visual reference I can find to this subject is the opening scene in Buster Keaton's 1922 classic film \"The Frozen North\":"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "pEU7OxaZoWK2G2a8ksEEG",
+        "revision": 1,
+        "createdAt": "2015-09-21T22:39:38.977Z",
+        "updatedAt": "2015-09-21T22:39:38.977Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "text": "Here are two interesting links to artist Martin Kippenberger's Metro-Net project I recently learned about of installations he began in 1993 of full size replica subway stops in various cities worldwide. It appears other artists are also picking up where he left off:\n\n[Kippenberger](https://metronext.wordpress.com/2011/06/16/martin-kippenbergers-metro-net/)\n\n[Scheruebel](http://klausscheruebel.com/)"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Io8ByyN902UeioGiK6I04"
+          }
+        },
+        "id": "1ISOZHUyMkoeaukiCgKa8k",
+        "revision": 1,
+        "createdAt": "2015-09-21T22:28:22.789Z",
+        "updatedAt": "2015-09-21T22:28:22.789Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Hand Held Gallery",
+        "date": "2015-07-08",
+        "contents": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "25dyM6zlJ28AM8Giok6sIK"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65plqRTMk0GGkIScgAk0s8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Io8ByyN902UeioGiK6I04"
+          }
+        },
+        "id": "6birGYqF9u6wSgs0iuGWou",
+        "revision": 1,
+        "createdAt": "2015-09-21T22:39:51.748Z",
+        "updatedAt": "2015-09-21T22:39:51.748Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Lost Stop",
+        "date": "2013-10-03",
+        "contents": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hKyPMTCDK2QYCiiacIuII"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "C0Bpmls5Ms4AO4EaSYUsG"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "57QxA6YJjqayAMOowasus0"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "pEU7OxaZoWK2G2a8ksEEG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "5PHzgkbBZY8qek24cSWq6k",
+        "revision": 1,
+        "createdAt": "2015-09-22T04:17:31.680Z",
+        "updatedAt": "2015-09-22T04:17:31.680Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Exhibitions",
+        "text": "2015 Modernism gallery, San Francisco, CA group show\n2015 GBD Architects gallery, Portland, OR solo show\n2015 CentrlOffice Workspace gallery, Portland, OR solo show\n2015 No Ad digital curated app exhibit on NYC Subway by the Subway Art Blog, group show\n2014 Cavalier Galleries, Greenwich, CT. group show: \"Contemporary Realism\"\n2014 Cavalier Galleries Project 3W57, NY, NY. fall group show\n2014 Industry & Art, Portland, OR. group show\n2014 William Rolland Gallery, CA Lutheran U., Thousand Oaks, CA. group show: \"the Beautiful\"\n2014 Deborah Berke Partners, NY, NY. solo show: \"Above & Below\" \n2013 Victory Gallery, Portland, OR, solo show: \"New York + New Work\" \n2012-2013 PDX Int. Airport Terminal B group show \n2012 Industry & Art, Portland, OR. juried group show featured artist\n2011 Industry & Art, Portland, OR. juried group show 2nd place\n2011 Atlantic Gallery, NY, NY. group show: \"Concealment & Disclosure\" \n2010 PDX Gallery, Portland, OR. group show \n2010 Atlantic Gallery, NY, NY. group show: \"Water\" \n2009 Froelick Gallery, Portland, OR. group show \"Town & Country\" \n1991 Trident Chamber of Commerce, Charleston, SC. solo show \n1991 Owensboro Mus. of Fine Art, Owensboro, KY group show: \"S.Carolina Contemporary Images\" \n1990 City Gallery, Charleston, SC. solo show \n1990 Gibbes Gallery, Charleston, SC. group show \"Charleston's Maritime Heritage\" \n1989 Gibbes Gallery, Charleston, SC. solo lecture/show \"the Artist and his Style\"\n1987 Piccolo Spoleto Charleston, SC. group invitational show \n1985 Nassau Cty. Museum of Fine Art, Roslyn Hbr, NY. group show, \"The Tradition in Steel\" \n1979 Keenlyside Gallery, Vancouver, B.C., Canada. group opening show \n1978 N.W. Artist's Workshop Gallery, Portland, OR. two person show \n1977 Linfield College, McMinnville, OR. solo show \n1976 C.M. Russell Museum, Great Falls, MT. group juried show \n1976 White Gallery, PSU Portland, OR. solo show \n1975 Winter Gallery, Portland, OR. solo show \n1972 RISD Woods Gerry Gallery, Providence, RI. two person show \n1970 Harbor Gallery, Cold Spring Harbor, NY. group show \"Young Realists Show\""
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "5jSsiVwwrSokKm6AWaKKGc",
+        "revision": 1,
+        "createdAt": "2015-09-22T04:16:56.113Z",
+        "updatedAt": "2015-09-22T04:16:56.113Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Artist's Statement",
+        "text": "How did I get here? Biking in from the Island at thirteen to the last stop on the F train to lurk Canal Street and the Village. Bound for the west coast as soon as possible... Trains, trucks, boats, ships, cranes & crawlers. Rigging, salvage, towing, steel, timber, rock & dirt... Cities, crowds and faces. All the while, photographing & painting like mad to celebrate it all. More to follow... \n\nOctober 2012\nPortland, Oregon"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "3pYdBepPawwu6ssW88IM4y",
+        "revision": 2,
+        "createdAt": "2015-09-22T04:08:47.819Z",
+        "updatedAt": "2015-09-22T04:15:19.425Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "text": "Studio: PO Box 83037, Portland, OR 97283\n[info@sethtane.com](mailto:info@sethtane.com)",
+        "title": "Contact"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "5Cu1Q9TVD2uqcQ8ugyGIs6"
+          }
+        },
+        "id": "4xBwNK31VegW8UcKIUOyqs",
+        "revision": 2,
+        "createdAt": "2015-09-22T04:11:52.824Z",
+        "updatedAt": "2015-09-22T04:13:44.681Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "About Slideshow",
+        "slides": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "25dyM6zlJ28AM8Giok6sIK"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7bDAwAWd32ecSeyoK8mqiw"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "70wETwhR0kSeeuQ2UyMMuO"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "6EMLvWzRtY42kgAiomWWcY",
+        "revision": 1,
+        "createdAt": "2015-09-22T04:19:19.392Z",
+        "updatedAt": "2015-09-22T04:19:19.392Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Collections",
+        "text": "Sheldon Museum, Lincoln NE, Contemporary American Painting Permanent Collection\nPrivate collections:\nSan Francisco + Los Angeles, CA\nChicago, IL\nMission Hills, KS\nWorcester, MA\nNew York + Port Washington + Great Neck + Floral Park, NY\nPortland + Hood River + Ashland, OR\nCharleston, SC\nHouston, TX\nArlington, VA\nQuechee, VT\nVancouver, Canada\nParis, France"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "10MgeeUISgCAEMUuo8susm",
+        "revision": 1,
+        "createdAt": "2015-09-22T04:19:40.372Z",
+        "updatedAt": "2015-09-22T04:19:40.372Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Grants and Commissions",
+        "text": "1989 Painting Commission, U.S. Navy Charleston, SC \n1989 Special Project Grant, SC Arts Council \n1989 Small Project Grant, Charleston Area Arts Council, Charleston, SC \n1983 NJ Humanities Council Film Grant"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "6QnNMvQCg8ocgYsyqeIwwg",
+        "revision": 4,
+        "createdAt": "2015-09-21T20:43:06.316Z",
+        "updatedAt": "2015-09-22T04:36:48.408Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "text": "Thanks to all of you who have attended my exhibitions, visited this website, or I've met in my long series of adventures. Many have asked for an easy way to be added to my email list so they can see new work and hear about upcoming exhibitions in a timely manner, so I've added a \"subscribe\" button at the bottom of these pages. I always update this website as soon as paintings are done by adding them in chronological order on the \"work\" page.\n\nThe small oil painting on panel above is the third in a new series I've been working on about NYC food carts at night. Although I was pretty whipped from long days in the hectic city, I headed out with my stepladder (for a better point of view) on the subways and streets until way past midnight during a hot week this June. This scene and the one below were some of many that made it worth the effort. After capturing the activity in the painting below, I walked from there to the jammed-to-the-walls throng and general madness in the blocks around Times Square, where even heavily armed security forces ignored me while I was perched on a ladder on the sidewalk, or after climbing on a trash bin when I couldn't deploy the ladder: photographing, waiting and photographing to capture as many people and their interactions as I could for reference when I'm three thousand miles away in Portland trying to paint about it.",
+        "title": null
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "7oqJluKUViIgs4ukS2w48I"
+          }
+        },
+        "id": "6ALLEqMxTa4ywAE8CsCkm4",
+        "revision": 3,
+        "createdAt": "2015-09-21T20:43:39.607Z",
+        "updatedAt": "2015-09-22T04:36:55.043Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "text": "This cart was outside the New York Times building at the corner of 8th avenue and 40th street in Manhattan. While I watched from the shadows of the Times building, the operator of the cart would step out and talk with the three men in front of it, who all seemed to know one another well or maybe were co-owners. Their discussion would lazily flow up and down the sidewalk in between his ducking back inside to serve the few customers who would stop and order, and it seemed to be a way for them to break up the reality of hard work in that small space on the corner until 4AM every day.",
+        "title": null
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "NAu5BlmiGaGuQYgg8SoKM"
+          }
+        },
+        "id": "2G5d3iYyHe2QyGyeeEwC8c",
+        "revision": 2,
+        "createdAt": "2015-09-22T04:29:47.722Z",
+        "updatedAt": "2015-09-22T04:32:24.918Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Main Navigation",
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2liV5pPvveawekEMcwMUOY"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2si2kVjEGY0WsG8q2EOcMi"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5Sq4JaQttSwYOMQ2Iy08Qs"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fields": {
+        "title": "Thames Roof",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/thames-roof.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4hRQMxSktG6ou2oascG2ES",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:27.219Z",
+        "updatedAt": "2015-09-22T05:25:07.895Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Gas",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/gas.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2cvHBIs0XW8EqQcy0Kkuoe",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:26.814Z",
+        "updatedAt": "2015-09-22T05:25:08.245Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "17",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/17.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2jFK3fXVY4iAGQmOqqWku0",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:27.891Z",
+        "updatedAt": "2015-09-22T05:25:08.290Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Verboten",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/verboten.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "ZyF8UnTUc0OMKkyyQ8SEM",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:28.207Z",
+        "updatedAt": "2015-09-22T05:25:08.626Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Interference",
+        "date": "1977",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/interference.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6Py62BuhrOasmgM0qiMese",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:28.667Z",
+        "updatedAt": "2015-09-22T05:25:08.636Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Dream Sequence",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "38\" x 48\"",
+        "attachmentUrl": "/paintings/dream-sequence.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4ZNPI1mg5GWo2II6mEkKAa",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:26.442Z",
+        "updatedAt": "2015-09-22T05:25:07.558Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Westbound Tank",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/westbound-tank.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4fwvzM4C2Q802wSiEwissq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:27.516Z",
+        "updatedAt": "2015-09-22T05:25:07.558Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Station 12",
+        "date": "1974",
+        "medium": "steel, wood, battery",
+        "dimensions": "24\" x 12\" x 12\"",
+        "attachmentUrl": "/paintings/station-12.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6s8U6HNpgQeOkCyokskuUu",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:20.964Z",
+        "updatedAt": "2015-09-22T05:26:04.777Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Station 12 (inside detail)",
+        "date": "1974",
+        "medium": "plastic, wire, light, battery",
+        "dimensions": "10\"x10\"",
+        "attachmentUrl": "/paintings/station-12D.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "67yifEaDwAA0AMEIecYgKE",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:21.032Z",
+        "updatedAt": "2015-09-22T05:26:05.193Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Coal Mine Diner (detail)",
+        "date": "1976",
+        "medium": "steel, brass, aluminum, wood, battery, light",
+        "dimensions": "50\"x24\"x24\"",
+        "attachmentUrl": "/paintings/coal-mine-dinerD.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2WlFkyYZG8aKWOEImI46w2",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:22.597Z",
+        "updatedAt": "2015-09-22T05:26:05.495Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "The Hole (inside detail)",
+        "date": "1972",
+        "medium": "stone, cardboard, balsa, light",
+        "dimensions": "7\"x6\"x4\"",
+        "attachmentUrl": "/paintings/the-holeD.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "7BC5M5Cr5uMkgkQ2YCs4yg",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:19.636Z",
+        "updatedAt": "2015-09-22T05:26:03.675Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Six Days on the Road",
+        "date": "1972",
+        "medium": "lead, wood, battery, light",
+        "dimensions": "38\"x25\"x25\"",
+        "attachmentUrl": "/paintings/6-days-on-the-road.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "58j16TXPHqeeiI4mcOUk0O",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:20.267Z",
+        "updatedAt": "2015-09-22T05:26:04.052Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "The Real Thing",
+        "date": "1972",
+        "medium": "lead, wood, battery, light",
+        "dimensions": "18\"x12\"x4\"",
+        "attachmentUrl": "/paintings/realthing.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2rQhpXX0va8WiIIEe48KWu",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:20.366Z",
+        "updatedAt": "2015-09-22T05:26:04.415Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Gem of Egypt (Bear Valley Version)",
+        "date": "1975",
+        "medium": "wood, steel, burlap, glass, tar",
+        "dimensions": "113\" x 113\" x 113\"",
+        "attachmentUrl": "/paintings/gem-of-egypt.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4Foj7vFb4IIW8EoGkKWqkg",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:22.273Z",
+        "updatedAt": "2015-09-22T05:26:05.823Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pier 9",
+        "date": "1990",
+        "medium": "oil on panel",
+        "dimensions": "16\" x 20\"",
+        "attachmentUrl": "/paintings/pier-9.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4mJBmaFVmoamGyWGsoOciG",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:39.541Z",
+        "updatedAt": "2015-09-22T05:26:06.179Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Vancouver",
+        "date": "1990",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/vancouver.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2enNrjMPoQYscyeQUmICqA",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:40.166Z",
+        "updatedAt": "2015-09-22T05:26:06.528Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "'53 (inside detail)",
+        "date": "1971",
+        "medium": "silver wire, cardboard, brass, battery",
+        "dimensions": "1-1/4\"",
+        "attachmentUrl": "/paintings/53D.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1ck3w48gCM6YseeQyK0ksK",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:18.959Z",
+        "updatedAt": "2015-09-22T05:26:02.542Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "The Hole",
+        "date": "1972",
+        "medium": "lead, wood, battery, light",
+        "dimensions": "60\"x18\"x18\"",
+        "attachmentUrl": "/paintings/the-hole.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1n4mwMoAJKa66K0SYSWCYK",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:19.708Z",
+        "updatedAt": "2015-09-22T05:26:02.862Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "'53",
+        "date": "1971",
+        "medium": "wood, brass, zinc",
+        "dimensions": "14\" x 23\" x 6\"",
+        "attachmentUrl": "/paintings/53.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2hRtLLJjQseiW4amy8uYaq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:18.977Z",
+        "updatedAt": "2015-09-22T05:26:03.229Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Outbounder",
+        "date": "1989",
+        "medium": "oil on panel",
+        "dimensions": "40\" x 60\"",
+        "attachmentUrl": "/paintings/outbounder.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5AuJxwUWvCKMOwIGkMcQ80",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:39.246Z",
+        "updatedAt": "2015-09-22T05:26:06.891Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Crossover",
+        "date": "1990",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/crossover.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "Y2IvHRCMUMeGsYgyyaQAk",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:39.901Z",
+        "updatedAt": "2015-09-22T05:26:07.247Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Anchor Ball",
+        "date": "1994",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/anchor-ball.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3aF3k3h3hScKskEEEkuOgY",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:40.541Z",
+        "updatedAt": "2015-09-22T05:26:07.630Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Minot ND",
+        "date": "1976",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/minot-nd.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3ChkxmvQJyUMyU46OqqKk0",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:23.253Z",
+        "updatedAt": "2015-09-22T05:26:00.239Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Safety Stripes",
+        "date": "1976",
+        "medium": "drawing/collage",
+        "dimensions": "9\" x 11-1/2\"",
+        "attachmentUrl": "/paintings/safety-stripes.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3llONyAFlmqs4KMwW8qaii",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:22.958Z",
+        "updatedAt": "2015-09-22T05:26:00.699Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Grain",
+        "date": "1976",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/grain.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1YesUiYhw04qgwaS2E4A0y",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:24.557Z",
+        "updatedAt": "2015-09-22T05:26:01.054Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Diamond Plate",
+        "date": "1976",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/diamond-plate.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2RBhfglOGcO24AWuic4I0Q",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:23.565Z",
+        "updatedAt": "2015-09-22T05:26:01.489Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Montana",
+        "date": "1976",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/montana.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2GyKCPebp64kCiO8coQqy2",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:24.227Z",
+        "updatedAt": "2015-09-22T05:26:01.830Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "North Africa",
+        "date": "1976",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/north-africa.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "7yYiU0Gef6wWOMua4Kwm6i",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:23.918Z",
+        "updatedAt": "2015-09-22T05:26:02.186Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Alongside",
+        "date": "1995",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/alongside.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3wCP2kaVBm6weMwsKoM2qM",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:40.809Z",
+        "updatedAt": "2015-09-22T05:26:08.139Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Under the Bridge",
+        "date": "1989",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/under-the-bridge.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1elvViFBqeaUqKKyy8W0Y",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:37.921Z",
+        "updatedAt": "2015-09-22T05:26:08.476Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Coal Morning",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "38\" x 48\"",
+        "attachmentUrl": "/paintings/coal-morning.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4bpI7fswDuWk4oKQeaQg8S",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:25.528Z",
+        "updatedAt": "2015-09-22T05:25:59.729Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Dusk Anchorage",
+        "date": "1988",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/dusk-anchorage.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3Xqsg3xCByI0EO2GMuUgIS",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:37.582Z",
+        "updatedAt": "2015-09-22T05:26:13.461Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Itaquatia",
+        "date": "1988",
+        "medium": "oil on panel",
+        "dimensions": "14\" x 12\"",
+        "attachmentUrl": "/paintings/itaquatia.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6mBZsrrvPygQ8O4aicqqek",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:36.869Z",
+        "updatedAt": "2015-09-22T05:26:13.810Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Steam",
+        "date": "1979",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/steam.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2UM8CNcwM0w6uwUGEmSYai",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:34.201Z",
+        "updatedAt": "2015-09-22T05:26:14.191Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Wrong Train",
+        "date": "1979",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/wrong-train.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6m5PDDkalyEQgASmiEAQyy",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:34.483Z",
+        "updatedAt": "2015-09-22T05:26:14.530Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Five Points",
+        "date": "1978",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/5points.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5saNkXCeas0SG4mYqGSqg2",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:30.379Z",
+        "updatedAt": "2015-09-22T05:26:18.088Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "North Dakota",
+        "date": "1982",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/north-dakota.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2baqZ6gspqIGKqe4mc80WK",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:35.484Z",
+        "updatedAt": "2015-09-22T05:26:18.465Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Powerhouse Stacks",
+        "date": "1980",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/powerhouse-stacks.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "263k1o5AdqgS8WqgII2wWw",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:35.098Z",
+        "updatedAt": "2015-09-22T05:26:18.788Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Ship Assist",
+        "date": "1979",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/ship-assist.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2MaN5Ed2tW0qiMYOIwOU4",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:34.837Z",
+        "updatedAt": "2015-09-22T05:26:14.884Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Canal Street",
+        "date": "1978",
+        "medium": "welded steel, wood, sound, light, battery",
+        "dimensions": "92\" x 60\" x 16\"",
+        "attachmentUrl": "/paintings/canal-street.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6POT5fjBpmyy0OkQUYu6aI",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:31.479Z",
+        "updatedAt": "2015-09-22T05:26:15.226Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Axy-Dent",
+        "date": "1978",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/axy-dent.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "TanjVLOE6GQKwOiQy0u86",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:31.772Z",
+        "updatedAt": "2015-09-22T05:26:15.581Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pilot",
+        "date": "1988",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/pilot.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "44xu5BU1JKg0MuGG6i08iq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:36.428Z",
+        "updatedAt": "2015-09-22T05:26:12.384Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Astern",
+        "date": "1988",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/astern.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "vCrnCD7L3iigYa6UAiKes",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:37.177Z",
+        "updatedAt": "2015-09-22T05:26:12.739Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "51st. Street",
+        "date": "1985",
+        "medium": "steel, wood, paper, light",
+        "dimensions": "11-1/4\" x 9-1/4\" x 8\"",
+        "attachmentUrl": "/paintings/51st-st.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "12b3A7UFoSQ8kqiYkW0swi",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:36.129Z",
+        "updatedAt": "2015-09-22T05:26:13.123Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Ferry to Nanaimo",
+        "date": "1979",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/ferry-to-nanaimo.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "IWT7gPxMm4ksYGE0I6K8i",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:33.580Z",
+        "updatedAt": "2015-09-22T05:26:10.070Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sortie-X",
+        "date": "1979",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/sortiex.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1mmnSqDdje4yQ4gy0EkYcU",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:33.844Z",
+        "updatedAt": "2015-09-22T05:26:10.436Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "No Smoking",
+        "date": "1978",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/no-smoking.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6nuvAlM012kwAYcKIme6Gc",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:32.109Z",
+        "updatedAt": "2015-09-22T05:26:10.805Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Albers Mill",
+        "date": "1978",
+        "medium": "oil on panel",
+        "dimensions": "9\" x 11-1/2\"",
+        "attachmentUrl": "/paintings/albers-mill.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4mLofSa0tOeeIW4qGemm4W",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:32.709Z",
+        "updatedAt": "2015-09-22T05:26:11.202Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "NW 3rd",
+        "date": "1979",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/nw3rd.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "10py4nQVk8EgiUIyAkC28k",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:33.184Z",
+        "updatedAt": "2015-09-22T05:26:11.627Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Royal Baking",
+        "date": "1978",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/royal-baking.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1Sz4tFyp244sWEweSQASgu",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:32.460Z",
+        "updatedAt": "2015-09-22T05:26:12.005Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Michigan",
+        "date": "1978",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/michigan.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6UJRK7fTB6IeAYm4IQU8QA",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:31.133Z",
+        "updatedAt": "2015-09-22T05:26:16.021Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Longview",
+        "date": "1977",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/longview.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "326VC9FzmMIG8Q8K8Oi8kE",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:29.295Z",
+        "updatedAt": "2015-09-22T05:26:16.361Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Escape",
+        "date": "1977",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/escape.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4diVoOp8t2W4gkk2Ie0cge",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:28.994Z",
+        "updatedAt": "2015-09-22T05:26:16.691Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "NW 10th",
+        "date": "1989",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/NW-10th.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "29YSLMM8zecWqUCSAwoM8K",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:38.540Z",
+        "updatedAt": "2015-09-22T05:26:08.848Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Interurban",
+        "date": "1989",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/interurban.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "KJIAuvnNu0m4G8WeSmaw8",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:38.888Z",
+        "updatedAt": "2015-09-22T05:26:09.269Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pegasus",
+        "date": "1989",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/pegasus.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "u7XJlP1DgWqsmigoEqIIq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:38.235Z",
+        "updatedAt": "2015-09-22T05:26:09.619Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hidden Spaces",
+        "date": "1978",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/hidden-spaces.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4UAy4ypNxYMECuY440MQc",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:29.699Z",
+        "updatedAt": "2015-09-22T05:26:17.056Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Long Shot",
+        "date": "1978",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/long-shot.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3ASqGHh0zSMgqiuKAqewkw",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:30.041Z",
+        "updatedAt": "2015-09-22T05:26:17.407Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sortie",
+        "date": "1978",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/sortie.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5n8iEVjWk840cgoGyAQIuC",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:30.697Z",
+        "updatedAt": "2015-09-22T05:26:17.742Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Harmony",
+        "date": "2007",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/harmony.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "QyC64y5yWOqg0EIYYiiIU",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:43.574Z",
+        "updatedAt": "2015-09-22T05:26:25.653Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Columbia Slough",
+        "date": "2008",
+        "medium": "Oil on panel",
+        "dimensions": "9\" x 11-1/2\"",
+        "attachmentUrl": "/paintings/columbia-slough.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2zJAgJDLIsM8yuKQuY4YYg",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:43.850Z",
+        "updatedAt": "2015-09-22T05:26:25.999Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "F-Market, S.F.",
+        "date": "2011",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/F-Market.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2LfUsD5OxaMAOIUi0UQG26",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:51.082Z",
+        "updatedAt": "2015-09-22T05:26:26.337Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Swift Fair",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/swift-fair.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4fukN5p4DCwK4AggSoGi0g",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:47.411Z",
+        "updatedAt": "2015-09-22T05:26:26.657Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Royal Wave",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Royal-Wave.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4YyPJn4jWMK0U6YK06GIGY",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:48.642Z",
+        "updatedAt": "2015-09-22T05:26:21.380Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Whitehall Bound Staten Island Ferry",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "47-1/2\" x 71-1/4\"",
+        "attachmentUrl": "/paintings/Whitehall.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6fO2kcyiSkMa0kwcMYa8uQ",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:50.464Z",
+        "updatedAt": "2015-09-22T05:26:21.742Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Broadway-Nassau",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "47-1/2\" x 71-1/4\"",
+        "attachmentUrl": "/paintings/Broadway-Nassau.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4MasFSSMP6qcm2KseiwgWi",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:49.998Z",
+        "updatedAt": "2015-09-22T05:26:22.084Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Station 9",
+        "date": "1982",
+        "medium": "watercolor",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/station-9.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "39Mho4rnxewOCm4YQS2y8I",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:35.729Z",
+        "updatedAt": "2015-09-22T05:26:19.144Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Atlantic Queen",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Atlantic-Queen.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4GDz4qvqsEWQYmQkAiW826",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:49.332Z",
+        "updatedAt": "2015-09-22T05:26:19.533Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Discovery at the Gate",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/discovery-at-the-gate.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "YZVksVVf68oUMUeKoI6eG",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:48.036Z",
+        "updatedAt": "2015-09-22T05:26:19.931Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Please Watch the Closing Doors",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/please-watch-the-closing-d.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6EwKE21XwsQ8GI4iWgO4qK",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:47.855Z",
+        "updatedAt": "2015-09-22T05:26:27.025Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Outbound RoRo",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/outbound-roro.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3M5EuXvJGgm2eAUaKiYCOQ",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:47.234Z",
+        "updatedAt": "2015-09-22T05:26:27.373Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Tacoma",
+        "date": "2007",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/tacoma.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "44QJ5yYoFO6kI86kIoaK8s",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:41.750Z",
+        "updatedAt": "2015-09-22T05:26:27.810Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Stockton & Clay, S.F.",
+        "date": "2011",
+        "medium": "Oil on panel",
+        "dimensions": "47-1/2\" x 71-1/4\"",
+        "attachmentUrl": "/paintings/stockton.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1AFeyBnMEs6eiaoQaMKAiu",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:50.749Z",
+        "updatedAt": "2015-09-22T05:26:22.439Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Express",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "6\" x 20-1/2\"",
+        "attachmentUrl": "/paintings/express.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2MtCn6D2pqSmoEwAukouoS",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:45.095Z",
+        "updatedAt": "2015-09-22T05:26:22.802Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Gangway",
+        "date": "2008",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/gangway.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2pmOrIdJvKQS0mmk6soc2M",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:45.021Z",
+        "updatedAt": "2015-09-22T05:26:23.169Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pierside",
+        "date": "1995",
+        "medium": "oil on panel",
+        "dimensions": "12\" x 14\"",
+        "attachmentUrl": "/paintings/pierside.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1EPdihIA2QuKsQ6OQ0m4iC",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:41.178Z",
+        "updatedAt": "2015-09-22T05:26:28.129Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pan Voyager",
+        "date": "2008",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/pan-voyager.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5M5DDYfX44oQIIWyOEmksY",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:44.393Z",
+        "updatedAt": "2015-09-22T05:26:28.520Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Under the Volcano",
+        "date": "2008",
+        "medium": "Oil on panel",
+        "dimensions": "9\" x 11-1/2\"",
+        "attachmentUrl": "/paintings/under-the-volcano.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4bcXuicquAouGugWMeUiok",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:44.493Z",
+        "updatedAt": "2015-09-22T05:26:28.912Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sackett Street, Brooklyn",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/sackett-street.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6SmXHnoCqI2uuAoW6aeykE",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:46.719Z",
+        "updatedAt": "2015-09-22T05:26:23.526Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Uptown",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "6\" x 20-1/2\"",
+        "attachmentUrl": "/paintings/uptown.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4RsRf17oZWE8WQei0UuKmQ",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:45.643Z",
+        "updatedAt": "2015-09-22T05:26:23.880Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Ruthton Point",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "5\" x 7\"",
+        "attachmentUrl": "/paintings/ruthton-point.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4DtuVOGNaw0oYy24CY64Y0",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:45.780Z",
+        "updatedAt": "2015-09-22T05:26:24.223Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Fortune Spirit",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/fortune-spirit.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "wXyQUKiyg8IusoacK6OW0",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:49.129Z",
+        "updatedAt": "2015-09-22T05:26:20.272Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Ikan Sagai",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/ikan-sagai.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5iEQx3MIfmKu0SCkWa2MKk",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:48.460Z",
+        "updatedAt": "2015-09-22T05:26:20.633Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pan Noble",
+        "date": "2010",
+        "medium": "Oil on panel",
+        "dimensions": "47-1/2\" x 71-1/4\"",
+        "attachmentUrl": "/paintings/pan-noble.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3nrs4KaxGEmoM4SwuEowYW",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:49.764Z",
+        "updatedAt": "2015-09-22T05:26:20.992Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Bound for Sea",
+        "date": "2009",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/bound-for-sea.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1qlPX41UOYsiso8O2SWIyU",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:46.612Z",
+        "updatedAt": "2015-09-22T05:26:24.550Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Upstairs",
+        "date": "2007",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/upstairs.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5P08Vex9fOq0a6AIacS46s",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:42.939Z",
+        "updatedAt": "2015-09-22T05:26:24.910Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "X-1852",
+        "date": "2007",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/x-1852.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "CeA3Pma01iqIsOEISiiGI",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:43.227Z",
+        "updatedAt": "2015-09-22T05:26:25.293Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Over the Hackensack",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Hackensack.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4OZB5i0ahiEKWyeES8KO0i",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:47.601Z",
+        "updatedAt": "2015-09-22T05:26:32.510Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "50th street",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/50th-st.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4Qbae5EAtauWmoeIoukM66",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:47.582Z",
+        "updatedAt": "2015-09-22T05:26:32.853Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Wheel Gang",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/Wheelgang.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5XwVCao1TaciOSEwwIaaQS",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:46.930Z",
+        "updatedAt": "2015-09-22T05:26:33.206Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Ocean Beauty",
+        "date": "2007",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/ocean-beauty.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "T6TMDty06I0q6wuoAGYci",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:42.595Z",
+        "updatedAt": "2015-09-22T05:26:29.274Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lorentzos",
+        "date": "2007",
+        "medium": "Oil on panel",
+        "dimensions": "20\" x 24\"",
+        "attachmentUrl": "/paintings/lorentzos.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4Up4Ru62AESikWCoYGmE88",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:42.232Z",
+        "updatedAt": "2015-09-22T05:26:29.636Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lamb Over Rice",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/lamb over rice.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "32eBwrLPuEqg84UsGUsis8",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:48.190Z",
+        "updatedAt": "2015-09-22T05:26:29.995Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Canal & Broadway",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Canal & Broadway.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2AAIlWUePuuqmgAiAAcG8U",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:46.951Z",
+        "updatedAt": "2015-09-22T05:26:33.637Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Chambers street",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/chambers.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3LaJLSWM2IQk6SASCyuCOi",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:44.992Z",
+        "updatedAt": "2015-09-22T05:26:34.008Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Vernon-Jackson",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/vernon-jackson.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4zyqbW6hSwg4ewooweMAmK",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:44.993Z",
+        "updatedAt": "2015-09-22T05:26:34.371Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Bleeker Street",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Bleeker Street.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5t9Qf4WCK4IiiYWekykQaS",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:49.432Z",
+        "updatedAt": "2015-09-22T05:26:31.407Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Marcy Avenue",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Marcy Avenue.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6f2orJbBy8uIwgWsAo00gi",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:49.574Z",
+        "updatedAt": "2015-09-22T05:26:31.785Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sabrett",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Sabrett.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "7mfPxnX4GI28mAU6WEeKmu",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:50.761Z",
+        "updatedAt": "2015-09-22T05:26:32.134Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Union Square",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Union Square.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3FcyoMGwSkIGk0CQmMawSU",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:48.863Z",
+        "updatedAt": "2015-09-22T05:26:30.359Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Side by Side",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Side by Side.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "lzCW3phFRucCcy0WGCg0M",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:48.826Z",
+        "updatedAt": "2015-09-22T05:26:30.715Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hess Estate",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/Hess Estate.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5hGoWoVngcWmkisEoAc2II",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:48.253Z",
+        "updatedAt": "2015-09-22T05:26:31.057Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "E Train",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/E-Train.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "o56HACl0MC6o6w80sG6ss",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:45.709Z",
+        "updatedAt": "2015-09-22T05:26:34.728Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Welding Booth",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/welding-booth.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1esvLbJBzqwWwYE8G204oM",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:45.709Z",
+        "updatedAt": "2015-09-22T05:26:35.059Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "T/A",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/T-A.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5LLUHg5N9S2KaUaysgG2c0",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:43.245Z",
+        "updatedAt": "2015-09-22T05:26:35.432Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "42nd street",
+        "date": "2011",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/42nd-st.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5zrAaZGUlaWAy4qQySwSey",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:42.483Z",
+        "updatedAt": "2015-09-22T05:26:36.009Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Fulton street",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "attachmentUrl": "/paintings/Fulton-st.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "28CR36kYg8KgcQqMumwcI4",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:42.557Z",
+        "updatedAt": "2015-09-22T05:26:36.357Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "No Step (inside detail)",
+        "date": "1977",
+        "medium": "steel, paper, wood, light, audio",
+        "dimensions": "8\" x 7\"",
+        "attachmentUrl": "/paintings/no-stepD.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "47RrEQIQyAAEE2Mqs8kK6U",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:24.907Z",
+        "updatedAt": "2015-09-22T05:27:45.847Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Passage Interdit",
+        "date": "1977",
+        "medium": "oil on panel",
+        "dimensions": "21\" x 24\"",
+        "attachmentUrl": "/paintings/passage-interdit.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "Y4iF2lJqc6eI4uCGkS46i",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:26.131Z",
+        "updatedAt": "2015-09-22T05:27:00.541Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Continental Drift Monitor",
+        "date": "1977",
+        "medium": "aluminum, plastic, battery, light",
+        "dimensions": "11\"x7\"x7\"",
+        "attachmentUrl": "/paintings/drift-monitor.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3R3uugATrOGgg8AIg6GG8k",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:25.838Z",
+        "updatedAt": "2015-09-22T05:28:02.677Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Penn Station",
+        "date": "2011",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": [
+          "/paintings/penn-station.jpg"
+        ],
+        "attachmentUrl": "/paintings/penn-station.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2YlIXslhqEuqGsICMskYGI",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:41.727Z",
+        "updatedAt": "2015-09-22T06:04:14.377Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "No Step",
+        "date": "1977",
+        "medium": "welded steel",
+        "dimensions": "74\" x 18\"",
+        "attachmentUrl": "/paintings/no-step.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4S7k0PdCPYOKY4Qk6a68SG",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:11:25.220Z",
+        "updatedAt": "2015-09-22T05:28:19.324Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "8-Ball",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/8-Ball.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4krwVmOtLGyYIUMC0YyAoW",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:46.323Z",
+        "updatedAt": "2015-09-22T06:06:01.297Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "GYRO",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "attachmentUrl": "/paintings/GYRO.jpg",
+        "OldAttachmentUrl": null
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5dHP67iZTGsEQymCOACsmc",
+        "revision": 4,
+        "createdAt": "2015-09-03T12:16:50.133Z",
+        "updatedAt": "2015-09-22T06:07:20.756Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "NAu5BlmiGaGuQYgg8SoKM"
+          }
+        },
+        "id": "yqjJs1SH60YQUs6g4sQ4E",
+        "revision": 2,
+        "createdAt": "2015-09-22T04:31:02.824Z",
+        "updatedAt": "2015-09-22T05:30:55.225Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Themes Navigation",
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4voxS9Wm9asOGcISuWEGQi"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5HXYWsj1IcMG4iCoAUe2aE"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4EgjXiO06cC6MGEaSEu0gq"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7jzFkEAAUgIomkke0yy4gC"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1bN9N9XJpqC4CAYycEiAQs"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fields": {
+        "title": "Dollar Slice",
+        "date": "2015-10-01T00:00+00:00",
+        "medium": "Oil on panel",
+        "dimensions": "48\" x 72\"",
+        "OldAttachmentUrl": null,
+        "size": 5,
+        "keywords": [
+          "pizza",
+          "urban",
+          "people",
+          "nyc"
+        ],
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4voxS9Wm9asOGcISuWEGQi"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Dollar Slice1.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5IzsKcEXtuAWkwgE8iuAAE",
+        "revision": 7,
+        "createdAt": "2015-09-03T12:17:05.543Z",
+        "updatedAt": "2015-09-22T06:10:31.403Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Astoria Train",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4EgjXiO06cC6MGEaSEu0gq"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5HXYWsj1IcMG4iCoAUe2aE"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Astoria Train.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "7bDAwAWd32ecSeyoK8mqiw",
+        "revision": 4,
+        "createdAt": "2015-09-03T12:17:03.638Z",
+        "updatedAt": "2015-09-22T06:10:27.981Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sammi Crystal",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7jzFkEAAUgIomkke0yy4gC"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Sammi Crystal.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "70wETwhR0kSeeuQ2UyMMuO",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:17:02.205Z",
+        "updatedAt": "2015-09-22T06:10:24.756Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hilltop",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Hilltop.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1j29jl0US06Eu6OO2Ec8sM",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:17:02.978Z",
+        "updatedAt": "2015-09-22T06:10:20.225Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Grand Central II",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Grand Central II.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4k0OdggpCUyUEg8qG82yUQ",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:51.552Z",
+        "updatedAt": "2015-09-22T06:11:59.460Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "New Ambition",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/New Ambition.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "japGe1A6lyC2GGWygsIgE",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:17:02.990Z",
+        "updatedAt": "2015-09-22T06:10:16.306Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lost Stop",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "48\" x 72\"",
+        "attachmentUrl": "/paintings/Lost Stop.jpg",
+        "OldAttachmentUrl": null
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2hKyPMTCDK2QYCiiacIuII",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:50.224Z",
+        "updatedAt": "2015-09-22T06:11:41.684Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "C-train",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/C-train.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5vVjZq4gSc8WKQIYAQ2CIi",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:51.369Z",
+        "updatedAt": "2015-09-22T06:12:06.140Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Local",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Local.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4Q4E6a3pPaoEi8quyWOwqO",
+        "revision": 4,
+        "createdAt": "2015-09-03T12:16:50.819Z",
+        "updatedAt": "2015-09-22T06:08:40.827Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "59th Street",
+        "date": "2015",
+        "medium": "Oil on panel",
+        "dimensions": "6.75\" x 10\"",
+        "OldAttachmentUrl": null,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4voxS9Wm9asOGcISuWEGQi"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4EgjXiO06cC6MGEaSEu0gq"
+            }
+          }
+        ],
+        "keywords": [
+          "urban",
+          "conveyances",
+          "transit",
+          "people",
+          "subway",
+          "nyc",
+          "rail",
+          "pizza",
+          "architecture",
+          "ships",
+          "details"
+        ],
+        "size": 1,
+        "attachmentUrl": "/paintings/59th Street.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "181b4LcU7UQaMC4uK8GuYY",
+        "revision": 7,
+        "createdAt": "2015-09-03T12:17:06.153Z",
+        "updatedAt": "2015-09-22T06:12:29.079Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Miller Creek Local",
+        "date": "2015",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": null,
+        "size": 4,
+        "keywords": [
+          "subways",
+          "people",
+          "nyc"
+        ],
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4EgjXiO06cC6MGEaSEu0gq"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Miller Creek Local.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6FmNlAYkdaSWwgQEeq8QI4",
+        "revision": 5,
+        "createdAt": "2015-09-03T12:17:05.534Z",
+        "updatedAt": "2015-09-22T06:13:24.713Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Walker",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4voxS9Wm9asOGcISuWEGQi"
+            }
+          }
+        ],
+        "size": 1,
+        "keywords": [
+          "people",
+          "San Francisco",
+          "urban"
+        ],
+        "attachmentUrl": "/paintings/Walker.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6Pi8RswmBOU2gGW8ec2GSO",
+        "revision": 4,
+        "createdAt": "2015-09-03T12:16:59.975Z",
+        "updatedAt": "2015-09-22T06:13:32.383Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "On Many Levels",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "keywords": [
+          "architecture"
+        ],
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Many Levels.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2SLwM1wXTiYk0wm2AcKE2M",
+        "revision": 4,
+        "createdAt": "2015-09-03T12:17:04.248Z",
+        "updatedAt": "2015-09-22T06:13:38.886Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Nevada Highway",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5HXYWsj1IcMG4iCoAUe2aE"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Nevada Highway.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1qMl0txo28mOEE6KksgIi2",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:17:04.230Z",
+        "updatedAt": "2015-09-22T06:13:42.788Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sea Train",
+        "date": "2015",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": null,
+        "size": 4,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4EgjXiO06cC6MGEaSEu0gq"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Seatrain.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3U137LtSn6IccuKwYEEmy4",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:17:04.938Z",
+        "updatedAt": "2015-09-22T06:13:09.124Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "the Big Picture",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Big Picture.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5tqmzSDUJiMAaIWuymKEQq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:59.817Z",
+        "updatedAt": "2015-09-22T06:12:43.389Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Back Rub",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4voxS9Wm9asOGcISuWEGQi"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Back Rub.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5j0HVtXys8uuYCGkGc8aMA",
+        "revision": 4,
+        "createdAt": "2015-09-03T12:17:04.862Z",
+        "updatedAt": "2015-09-22T06:12:35.705Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lonely Platforms",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Lonely Platforms.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "13sYbinmfMyYOgIUIAcAmO",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:58.006Z",
+        "updatedAt": "2015-09-22T06:15:24.897Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Chelsea Rooftops",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Chelsea Rooftops.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3dXQwIQB0sAuaoGwWOSIcI",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:58.567Z",
+        "updatedAt": "2015-09-22T06:15:13.723Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Concession",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Concession.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4Lfp2ZTxNmwUgaWC0QwmGc",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:17:03.603Z",
+        "updatedAt": "2015-09-22T06:14:03.308Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sanko Robust",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Sanko Robust.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2f9xyQAXwkYIU6gmWCEsIq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:17:02.068Z",
+        "updatedAt": "2015-09-22T06:14:38.676Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Short Scope",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Short Scope.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "s4pgpX13LaUaYICSoscaO",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:17:01.517Z",
+        "updatedAt": "2015-09-22T06:14:21.119Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "the Art Co.",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Art Co.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6jPX9zhJT2IY8Y2eO8GCO2",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:17:00.653Z",
+        "updatedAt": "2015-09-22T06:14:28.441Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Wired",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Wired.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1MNI3atssAG8YmosuOeCK0",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:17:00.570Z",
+        "updatedAt": "2015-09-22T06:14:34.875Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Global Challenger",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Global Challenger.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4jkY9k5rKEq2yKwK0qsWk4",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:55.491Z",
+        "updatedAt": "2015-09-22T06:17:28.197Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Platform Hipsters",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Platform Hipsters.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1RzfAtgi8U0QKQca2wKscu",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:58.725Z",
+        "updatedAt": "2015-09-22T06:15:37.437Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Empire State",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Empire State.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "17MwSeoD8CA8A62SW28ckQ",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:57.248Z",
+        "updatedAt": "2015-09-22T06:16:18.861Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "5th & Bryant",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/5th & Bryant.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6ikLw8k23KE4AEakS0SeUK",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:59.195Z",
+        "updatedAt": "2015-09-22T06:15:42.503Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Upper Deck",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Upper deck.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "29BSWYCeTKgW2MkK4gqKem",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:55.984Z",
+        "updatedAt": "2015-09-22T06:17:31.548Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Silvercup 7",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Silvercup 7.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6xpQzDXz4kk4kUKwEIM46c",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:56.613Z",
+        "updatedAt": "2015-09-22T06:16:32.887Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Newark",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Newark.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3ljhVkNBgIK6GSqogQ28qG",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:56.719Z",
+        "updatedAt": "2015-09-22T06:16:35.637Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "A Train",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/A train.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "19XzmvOSrCeISaQGYIMsWi",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:57.957Z",
+        "updatedAt": "2015-09-22T06:16:42.933Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "7th Av",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/7th Av.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "56it2utj6UuAg6WWc4WCqW",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:57.343Z",
+        "updatedAt": "2015-09-22T06:16:40.053Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Car Interior",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/car-interior.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "9AT4kmZbNuaCkWI4sAQ8q",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:53.405Z",
+        "updatedAt": "2015-09-22T06:18:41.599Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Waiting Area",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Waiting Area.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1PzjgNu2vOUSw86Q0cgE4u",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:56.110Z",
+        "updatedAt": "2015-09-22T06:17:43.917Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Deserted",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Deserted.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "5osC9n20NOIyaaUMmEeYiq",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:55.357Z",
+        "updatedAt": "2015-09-22T06:17:34.885Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Coalinga 148",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Coalinga-148.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2GiCyUaPWwm6oIKsg8eCWg",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:54.674Z",
+        "updatedAt": "2015-09-22T06:18:20.142Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Pan Bright",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Pan Bright.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "31V3rA9uukaQAYaOI8aKuI",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:54.696Z",
+        "updatedAt": "2015-09-22T06:17:38.450Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Inbound 7",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/inbound7.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "4W9IrhoEiIEOkAsSYKOSwc",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:53.438Z",
+        "updatedAt": "2015-09-22T06:18:35.295Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "6 Train",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/6-train.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2C8Nu5YIAgem8sU6ICyyWc",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:54.045Z",
+        "updatedAt": "2015-09-22T06:18:28.956Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "the Larkin Wombat",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "size": 1,
+        "themes": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Qyv6r72OQsAGQgo0sWSK4"
+            }
+          }
+        ],
+        "attachmentUrl": "/paintings/Larkin Wombat.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6akASKYBFeIMceIYo0iKUU",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:17:01.349Z",
+        "updatedAt": "2015-09-22T06:23:37.203Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Market & Kearny, S.F.",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Market & Kearny.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6qMAyl7jBCOgKGyAYMGysM",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:52.072Z",
+        "updatedAt": "2015-09-22T06:22:55.904Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Times Square",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Times-Square.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1O3I66ldP2g26SEUe88I8S",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:46.333Z",
+        "updatedAt": "2015-09-22T06:21:27.680Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Daylight",
+        "date": "2012",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/daylight.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6AcFAxyRJCUQQiyYq6S82C",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:44.067Z",
+        "updatedAt": "2015-09-22T06:21:45.132Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "34th Street C",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/34th Street C.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "6li5KjxNpSG28koSSgGCU2",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:59.341Z",
+        "updatedAt": "2015-09-22T06:24:40.756Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Cosmo, S.F.",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/cosmo.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3YEyaSibLiqG6KQwgwiY8G",
+        "revision": 2,
+        "createdAt": "2015-09-03T12:16:52.188Z",
+        "updatedAt": "2015-09-22T06:23:58.881Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Tank Car",
+        "date": "2014",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/Tank Car.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1yO7f2kTHKASokuE2O0I4a",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:54.055Z",
+        "updatedAt": "2015-09-22T06:23:21.886Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "34th Street",
+        "date": "2011",
+        "medium": "Oil on panel",
+        "dimensions": "24\" x 36\"",
+        "OldAttachmentUrl": [
+          "/paintings/34.jpg"
+        ],
+        "attachmentUrl": "/paintings/34.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "2W6TCZC2hOKc2cmaK2eUYI",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:41.720Z",
+        "updatedAt": "2015-09-22T06:29:26.872Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lincoln Tunnel Exit",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/lincoln-tunnel-exit.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "3HCDx5ohXisg6ACKG84ega",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:52.696Z",
+        "updatedAt": "2015-09-22T06:25:18.835Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "fields": {
+        "title": "Union Sq. Halal",
+        "date": "2013",
+        "medium": "Oil on panel",
+        "dimensions": "6-3/4\" x 10\"",
+        "OldAttachmentUrl": null,
+        "attachmentUrl": "/paintings/union-sq-halal.jpg"
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6JD89DhMtiMsECcy2eMmAU"
+          }
+        },
+        "id": "1mX9pYxDaMweMKcUMogGI",
+        "revision": 3,
+        "createdAt": "2015-09-03T12:16:52.841Z",
+        "updatedAt": "2015-09-22T06:26:02.728Z",
+        "locale": "en-US"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "4SRWIhm9skYmEOoOeEK8wA"
+          }
+        },
+        "id": "5Sq4JaQttSwYOMQ2Iy08Qs",
+        "revision": 6,
+        "createdAt": "2015-08-31T22:36:21.050Z",
+        "updatedAt": "2015-09-22T07:57:10.681Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "About",
+        "url": "/about",
+        "body": null,
+        "contents": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3pYdBepPawwu6ssW88IM4y"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4xBwNK31VegW8UcKIUOyqs"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5jSsiVwwrSokKm6AWaKKGc"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5PHzgkbBZY8qek24cSWq6k"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6EMLvWzRtY42kgAiomWWcY"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "10MgeeUISgCAEMUuo8susm"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "4SRWIhm9skYmEOoOeEK8wA"
+          }
+        },
+        "id": "2liV5pPvveawekEMcwMUOY",
+        "revision": 7,
+        "createdAt": "2015-08-31T22:36:02.803Z",
+        "updatedAt": "2015-09-22T07:57:32.644Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Work",
+        "url": "/work",
+        "body": null,
+        "order": null,
+        "feeds": null,
+        "template": "works"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "39AMe6BdluY2cmE8wccCYc"
+          }
+        },
+        "id": "1bN9N9XJpqC4CAYycEiAQs",
+        "revision": 2,
+        "createdAt": "2015-09-22T03:49:13.958Z",
+        "updatedAt": "2015-09-22T08:53:26.128Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Sculpture",
+        "attachmentUrl": "/paintings/2-Lip.jpg"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Io8ByyN902UeioGiK6I04"
+          }
+        },
+        "id": "4xxuD4DMZWe26esQEIG6Yc",
+        "revision": 3,
+        "createdAt": "2015-09-21T20:43:47.291Z",
+        "updatedAt": "2015-09-22T20:13:43.822Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "After Dark",
+        "date": "2013-08-06",
+        "contents": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7mfPxnX4GI28mAU6WEeKmu"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6QnNMvQCg8ocgYsyqeIwwg"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "32eBwrLPuEqg84UsGUsis8"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6ALLEqMxTa4ywAE8CsCkm4"
+            }
+          }
+        ],
+        "body": ""
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "4SRWIhm9skYmEOoOeEK8wA"
+          }
+        },
+        "id": "2si2kVjEGY0WsG8q2EOcMi",
+        "revision": 3,
+        "createdAt": "2015-08-31T22:36:43.137Z",
+        "updatedAt": "2015-09-22T20:14:15.436Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "News",
+        "url": "/news",
+        "body": null,
+        "template": "news"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "h8jskevcughh"
+          }
+        },
+        "type": "Entry",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "59ta0rmIx2qGQ8u2caiIQw"
+          }
+        },
+        "id": "57QxA6YJjqayAMOowasus0",
+        "revision": 5,
+        "createdAt": "2015-09-21T22:34:02.919Z",
+        "updatedAt": "2015-09-22T20:41:34.974Z",
+        "locale": "en-US"
+      },
+      "fields": {
+        "attachmentUrl": "/aboutimages/Keaton.jpg",
+        "title": "Frozen North film still",
+        "oldcaption": "Buster Keaton in the film Frozen North",
+        "keywords": null,
+        "caption": "Buster Keaton in the film *Frozen North*"
+      }
+    }
+  ]
+}
