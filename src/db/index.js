@@ -38,10 +38,6 @@ DB.prototype.fetch = function (cb) {
       data[item.sys.id] = fields
       index[type] = index[type] || {}
       index[type][item.sys.id] = fields
-
-      if (type === 'works' && !fields.attachmentUrl) {
-        console.log(fields.title)
-      }
     })
 
     for (var item in data) {
