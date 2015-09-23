@@ -28,7 +28,7 @@ WorksView.prototype.show = function (r) {
   var works = Object.keys(db.index['works']).map(function (id) {
     return db.index['works'][id]
   }).sort(function (a, b) {
-    return b.date - a.date
+    return new Date(b.date) - new Date(a.date)
   })
 
   works = works.map(function (work) {
