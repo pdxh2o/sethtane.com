@@ -84,9 +84,11 @@
 }
 
 #works #single #meta > * {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 #works #single #meta #title {
   font-style: italic;
+  margin-left: 0;
+  flex: 1;
 }
