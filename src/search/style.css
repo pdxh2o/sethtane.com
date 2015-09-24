@@ -55,3 +55,17 @@
   height: 60px;
   border: 1px solit;
 }
+
+#search .result #text-preview {
+  display: none;
+  color: #CCC;
+  font-size: 25px;
+  align-self: center;
+  transform: scaleX(-1);
+}
+
+@media only screen and (min-width: 768px) {
+  #search .result #text-preview {
+    display: block;
+  }
+}

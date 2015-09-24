@@ -62,11 +62,12 @@ SearchView.prototype.show = function (r) {
         _html: preview[0] + '<span class="match">' + match[0] + '</span>' + preview[1]
       },
       '#count': count === 1 ? null : '+' + (count - 1) + ' other match' + (count > 2 ? 'es' : ''),
-      'img': result.item.attachmentUrl ? {
+      '#image-preview': result.item.attachmentUrl ? {
         _attr: {
           src: process.env.CDN_URL + result.item.attachmentUrl
         }
-      } : null
+      } : null,
+      '#text-preview': result.item.attachmentUrl ? null : ''
     }
   })
 
@@ -77,7 +78,8 @@ SearchView.prototype.render = function (results) {
   hg(this.el, {
     '.result': results && results.length ? results : [{
       '#title': 'No results found',
-      'img': null
+      '#image-preview': null,
+      '#text-preview': null
     }]
   })
 }
