@@ -121,7 +121,8 @@ function tokenizeQuery (query) {
 
 function getPreviewParts (index, length, input) {
   var parts = []
-  var start = index - 10
+  var bound = 20
+  var start = index - bound
   if (start < 0) {
     parts[0] = input.slice(0, index)
   } else {
@@ -133,7 +134,7 @@ function getPreviewParts (index, length, input) {
     }
     parts[0] = '... ' + input.slice(start + 1, index)
   }
-  var end = index + length + 10
+  var end = index + length + bound
   if (end > input.length) {
     parts[1] = input.slice(index + length)
   } else {
