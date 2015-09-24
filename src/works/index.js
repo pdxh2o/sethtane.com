@@ -35,10 +35,6 @@ WorksView.prototype.show = function (r) {
     return new Date(b.date) - new Date(a.date)
   }).map(function (work) {
     var themes = work.themes ? work.themes.map(function (c) { return c.title }).join(',') : ''
-    var imageUrl = null
-    if (work.attachmentUrl) {
-      imageUrl = process.env.CDN_URL + (single ? work.attachmentUrl : work.attachmentUrl.replace('.j', 'T.j'))
-    }
     return {
       _class: {
         'hidden': !single && filter && !themes.match(filter)
@@ -50,9 +46,10 @@ WorksView.prototype.show = function (r) {
       },
       'img': {
         _attr: {
-          src: imageUrl
+          src: work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
         },
         _class: {
+          '_1': !work.size || work.size == 1,
           '_2': work.size == 2,
           '_3': work.size == 3,
           '_4': work.size == 4,

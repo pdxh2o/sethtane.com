@@ -39,6 +39,7 @@
 #works #index {
   margin: 0;
   margin-left: 0;
+  max-width: 400px;
 }
 
 #works #index .work {
@@ -48,6 +49,7 @@
 }
 
 #works #index .work a {
+  display: block;
   border: 0;
 }
 
@@ -58,6 +60,31 @@
 #works #index .work img {
   display: block;
   max-width: 100%;
+}
+
+#works #index .work img._1 {
+  width: 100px;
+  max-height: 100px;
+}
+
+#works #index .work img._2 {
+  width: 150px;
+  max-height: 150px;
+}
+
+#works #index .work img._3 {
+  width: 200px;
+  max-height: 200px;
+}
+
+#works #index .work img._4 {
+  width: 250px;
+  max-height: 250px;
+}
+
+#works #index .work img._5 {
+  width: 300px;
+  max-height: 300px;
 }
 
 #works #index .work #meta {
@@ -73,7 +100,7 @@
 
 #works #index.single {
   margin-left: 0;
-  width: auto;
+  max-width: 100%;
 }
 
 #works #index.single .work {
@@ -93,17 +120,18 @@
 }
 
 #works #index.single .work img {
+  width: auto;
   max-height: none;
 }
 
 @media only screen and (min-width: 768px) {
   #works {
     display: flex;
-    flex-grow: 1;
+    justify-content: center;
   }
 
   #works #menu {
-    flex-direction: column;
+    display: table;
     margin-bottom: 0;
   }
 
@@ -115,38 +143,11 @@
   }
 
   #works #index {
-    margin-left: 60px;
-    width: 400px;
+    margin-left: 40px;
   }
 
-  #works #index {
-    margin-left: 60px;
-    width: 400px;
-  }
-
-  #works #index .work img._1 {
-    max-width: 100px;
-    max-height: 100px;
-  }
-
-  #works #index .work img._2 {
-    max-width: 150px;
-    max-height: 150px;
-  }
-
-  #works #index .work img._3 {
-    max-width: 275px;
-    max-height: 275px;
-  }
-
-  #works #index .work img._4 {
-    max-width: 300px;
-    max-height: 300px;
-  }
-
-  #works #index .work img._5 {
-    max-width: 320px;
-    max-height: 320px;
+  #works #index.single {
+    max-width: 100%;
   }
 
   #works #index.single .work #meta {
