@@ -28,10 +28,10 @@
 
 #search .result #title {
   font-size: 18px;
-  margin-bottom: 5px;
 }
 
 #search .result #preview {
+  margin-top: 5px;
   font-size: 14px;
   color: #999;
 }

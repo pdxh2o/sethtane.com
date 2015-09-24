@@ -79,6 +79,8 @@ SearchView.prototype.render = function (results) {
   hg(this.el, {
     '.result': results && results.length ? results : [{
       '#title': 'No results found',
+      '#preview': null,
+      '#count': null,
       '#image-preview': null,
       '#text-preview': null
     }]
