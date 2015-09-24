@@ -12,6 +12,7 @@ function SearchView () {
 SearchView.prototype.show = function (r) {
   var query = r.location.query.q
   if (!query || query.length < 3) {
+    this.lastQuery = null
     return this.render()
   } else if (query === this.lastQuery) {
     return
