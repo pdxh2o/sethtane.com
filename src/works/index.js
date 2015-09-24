@@ -86,6 +86,7 @@ WorksView.prototype.show = function (r) {
 
   if (single) {
     this._single = true
+    document.body.scrollTop = 0
   } else if (this._lastScroll) {
     delete this._single
     document.body.scrollTop = this._lastScroll
