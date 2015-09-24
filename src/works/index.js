@@ -45,7 +45,7 @@ WorksView.prototype.show = function (r) {
       },
       'a': {
         _attr: {
-          href: single ? '/work' : '/work/' + work.id
+          href: single ? null : '/work/' + work.id
         }
       },
       'img': {
