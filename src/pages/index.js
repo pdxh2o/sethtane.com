@@ -4,6 +4,7 @@ var hg = require('hyperglue2')
 var template = require('./index.html')
 var db = require('../db')
 var md = require('marked').setOptions({ breaks: true })
+var SlideshowView = require('../slideshow')
 
 var templates = {
   home: require('../home'),
@@ -13,12 +14,37 @@ var templates = {
 
 PageView.reuse = true
 
+PageView.findByURL = function (url) {
+  var best = {
+    url: '',
+    title: '404',
+    body: 'Not Found'
+  }
+  var pages = db.index.pages
+  for (var i in pages) {
+    var page = db.index.pages[i]
+    if (page.url.length > best.url.length &&
+        new RegExp('^' + page.url).test(url)) {
+      best = page
+    }
+  }
+  return best
+}
+
 function PageView () {
   this.el = hg(template)
+  this.slideshows = []
+  this._onmutation = this._onmutation.bind(this)
+  this.observer = new MutationObserver(this._onmutation)
+  this.observer.observe(this.el, {
+    subtree: true,
+    childList: true,
+    attributes: false
+  })
 }
 
 PageView.prototype.show = function (r) {
-  var page = this.findByURL(window.location.pathname)
+  var page = PageView.findByURL(window.location.pathname)
 
   hg(this.el, {
     '#contents': {
@@ -75,10 +101,10 @@ PageView.prototype.show = function (r) {
             _html: md(block.text)
           } : null
         }
-      } else {
-        return {
-          '#title': '-- ' + block.type + ' --'
-        }
+      } else if (block.type === 'slideshows') {
+        var show = new SlideshowView(block)
+        show.start()
+        return show
       }
     })
   })
@@ -97,28 +123,29 @@ PageView.prototype.show = function (r) {
     hg(this.el, { '#template': this.templateView.el })
     this.templateView.show(r)
   } else {
-    this.hide()
+    this.hideTemplate()
   }
 }
 
-PageView.prototype.findByURL = function (url) {
-  var pages = db.index.pages
-  for (var i in pages) {
-    var page = db.index.pages[i]
-    if (new RegExp('^' + page.url).test(url)) {
-      return page
-    }
-  }
-  return {
-    title: '404',
-    body: 'Not Found'
-  }
+PageView.prototype._onmutation = function (mutations) {
+  mutations.forEach(function (evt) {
+    Array.prototype.slice.call(evt.removedNodes).forEach(function (node) {
+      Array.prototype.slice.call(node.childNodes).forEach(function (node) {
+        node.hide && node.hide()
+      })
+    })
+  })
 }
 
-PageView.prototype.hide = function (r) {
+PageView.prototype.hideTemplate = function (r) {
   if (this.templateView) {
     this.templateView.hide && this.templateView.hide(r)
     this.templateView.el.parentNode.removeChild(this.templateView.el)
     delete this.templateView
   }
+}
+
+PageView.prototype.hide = function (r) {
+  this.hideTemplate()
+  this.observer.disconnect()
 }

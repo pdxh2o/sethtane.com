@@ -17,6 +17,7 @@ SearchView.prototype.show = function (r) {
     return
   } else {
     this.lastQuery = query
+    query = tokenizeQuery(query)
   }
 
   NavView.sharedInstance.search.focus()
@@ -24,8 +25,7 @@ SearchView.prototype.show = function (r) {
   var toSearch = [].concat(
     Object.keys(db.index.pages),
     Object.keys(db.index.works),
-    Object.keys(db.index.news),
-    Object.keys(db.index.images)
+    Object.keys(db.index.news)
   )
 
   var results = {}
@@ -42,10 +42,31 @@ SearchView.prototype.show = function (r) {
   }
 
   results = Object.keys(results).map(function (id) {
-    var result = results[id]
+    return results[id]
+  }).sort(function (a, b) {
+    return b.matches.length - a.matches.length
+  })
+
+  results = results.map(function (result) {
+    var match = result.matches[0]
+    var preview = getPreviewParts(match.index, match[0].length, match.input)
+    var count = result.matches.length
     return {
+      'a': {
+        _attr: {
+          href: urlForItem(result.item)
+        }
+      },
       '#title': result.item.title || result.item.name || '_',
-      '#matches': result.matches.join(', ')
+      '#preview': {
+        _html: preview[0] + '<span class="match">' + match[0] + '</span>' + preview[1]
+      },
+      '#count': count === 1 ? null : '+' + (count - 1) + ' other match' + (count > 2 ? 'es' : ''),
+      'img': result.item.attachmentUrl ? {
+        _attr: {
+          src: process.env.CDN_URL + result.item.attachmentUrl
+        }
+      } : null
     }
   })
 
@@ -55,17 +76,17 @@ SearchView.prototype.show = function (r) {
 SearchView.prototype.render = function (results) {
   hg(this.el, {
     '.result': results && results.length ? results : [{
-      '#title': 'No results found'
+      '#title': 'No results found',
+      'img': null
     }]
   })
 }
 
 SearchView.prototype.match = function (item, query) {
   var self = this
-  var regex = new RegExp(escapeRegExp(query), 'ig')
   var matches = []
   for (var field in item) {
-    if (field === 'id' || field === 'type') continue
+    if (field === 'id' || field === 'type' || field === 'attachmentUrl') continue
     field = item[field]
     if (Array.isArray(field)) {
       if (typeof field[0] === 'object') {
@@ -76,13 +97,63 @@ SearchView.prototype.match = function (item, query) {
         matches = matches.concat(self.match(field, query))
       }
     } else if (field) {
-      var fieldMatches = field.toString().match(regex)
-      if (fieldMatches) {
-        matches.push(fieldMatches)
+      for (var i in query) {
+        var regex = query[i]
+        var m = null
+        var str = field.toString()
+        while ((m = regex.exec(str)) !== null) {
+          matches.push(m)
+        }
       }
     }
   }
   return matches
+}
+
+function tokenizeQuery (query) {
+  var terms = query.trim().split(' ')
+  return terms.map(function (term) {
+    return new RegExp(escapeRegExp(term), 'ig')
+  })
+}
+
+function getPreviewParts (index, length, input) {
+  var parts = []
+  var start = index - 10
+  if (start < 0) {
+    parts[0] = input.slice(0, index)
+  } else {
+    while (start >= 0 &&
+           input[start] !== ' ' &&
+           input[start] !== '\t' &&
+           input[start] !== '\n') {
+      start--
+    }
+    parts[0] = '... ' + input.slice(start + 1, index)
+  }
+  var end = index + length + 10
+  if (end > input.length) {
+    parts[1] = input.slice(index + length)
+  } else {
+    while (end <= input.length &&
+           input[end] !== ' ' &&
+           input[end] !== '\t' &&
+           input[end] !== '\n') {
+      end++
+    }
+    parts[1] = input.slice(index + length, end) + ' ...'
+  }
+  return parts
+}
+
+function urlForItem (item) {
+  if (item.type === 'pages') {
+    return item.url
+  } else if (item.type === 'works') {
+    return '/work/' + item.id
+  } else if (item.type === 'news') {
+    return '/news/' + item.id
+  }
 }
 
 function escapeRegExp (s) {

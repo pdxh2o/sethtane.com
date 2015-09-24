@@ -28,6 +28,11 @@ NewsView.prototype.show = function (r) {
       if (block.type === 'works') {
         return {
           '#image': block.attachmentUrl ? {
+            'a': {
+              _attr: {
+                href: '/work/' + block.id
+              }
+            },
             'img': {
               _attr: {
                 src: process.env.CDN_URL + block.attachmentUrl
@@ -83,4 +88,6 @@ NewsView.prototype.show = function (r) {
   hg(this.el, {
     'article': articles
   })
+
+  document.body.scrollTop = 0
 }

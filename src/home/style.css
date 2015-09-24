@@ -18,12 +18,16 @@
 #home .theme {
   margin-left: 8px;
   margin-right: 8px;
+  opacity: 0.9;
+}
+
+#home .theme:hover {
+  opacity: 1;
 }
 
 #home .theme img {
   width: 250px;
   height: 175px;
-  border: 1px solid #222;
 }
 
 #home .theme #title {

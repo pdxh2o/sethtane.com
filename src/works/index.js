@@ -11,6 +11,7 @@ function WorksView () {
 }
 
 WorksView.prototype.show = function (r) {
+  var single = window.location.pathname.split('/')[2]
   var filter = r.location.query.theme || ''
   var themes = db.data['yqjJs1SH60YQUs6g4sQ4E'].items.map(function (theme, i) {
     return {
@@ -25,25 +26,31 @@ WorksView.prototype.show = function (r) {
       }
     }
   })
-
   var works = Object.keys(db.index['works']).map(function (id) {
     return db.index['works'][id]
+  }).filter(function (work) {
+    if (single) return work.id === single
+    return true
   }).sort(function (a, b) {
     return new Date(b.date) - new Date(a.date)
   }).map(function (work) {
     var themes = work.themes ? work.themes.map(function (c) { return c.title }).join(',') : ''
+    var imageUrl = null
+    if (work.attachmentUrl) {
+      imageUrl = process.env.CDN_URL + (single ? work.attachmentUrl : work.attachmentUrl.replace('.j', 'T.j'))
+    }
     return {
       _class: {
-        'hidden': filter && !themes.match(filter)
+        'hidden': !single && filter && !themes.match(filter)
       },
       'a': {
         _attr: {
-          href: '/work/' + work.id
+          href: single ? '/work' : '/work/' + work.id
         }
       },
       'img': {
         _attr: {
-          src: work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl.replace('.j', 'T.j') : null
+          src: imageUrl
         },
         _class: {
           '_2': work.size == 2,
@@ -59,20 +66,6 @@ WorksView.prototype.show = function (r) {
     }
   })
 
-  var single = null
-  var pathname = window.location.pathname
-  var parts = pathname.split('/')
-  if (parts.length >= 3) {
-    single = this._single = db.data[parts[2]]
-  } else {
-    delete this._single
-    if (this._lastScroll) {
-      setTimeout(function () {
-        document.body.scrollTop = this._lastScroll
-      }.bind(this))
-    }
-  }
-
   hg(this.el, {
     _class: {
       'active': filter
@@ -86,24 +79,17 @@ WorksView.prototype.show = function (r) {
     },
     '#index': {
       _class: {
-        hidden: single
+        single: single
       }
-    },
-    '#single': {
-      _class: {
-        hidden: !single
-      },
-      'img': {
-        _attr: {
-          src: single ? process.env.CDN_URL + single.attachmentUrl : null
-        }
-      },
-      '#title': single && single.title,
-      '#date': single && new Date(single.date).getFullYear(),
-      '#medium': single && single.medium,
-      '#dimensions': single && single.dimensions
     }
   })
+
+  if (single) {
+    this._single = true
+  } else if (this._lastScroll) {
+    delete this._single
+    document.body.scrollTop = this._lastScroll
+  }
 }
 
 WorksView.prototype._onscroll = function (evt) {

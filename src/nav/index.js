@@ -5,6 +5,7 @@ var template = require('./index.html')
 var router = require('uri-router')
 var match = require('uri-router/lib/firstmatch')
 var db = require('../db')
+var PageView = require('../pages')
 
 NavView.reuse = true
 
@@ -25,14 +26,7 @@ NavView.prototype.show = function (r) {
     this._lastPathname = pathname
   }
 
-  var currentPage = { url: '' }
-  db.data['2G5d3iYyHe2QyGyeeEwC8c'].items.forEach(function (page) {
-    if (page.url.length > currentPage.url.length &&
-        new RegExp('^' + page.url).test(pathname)) {
-      currentPage = page
-    }
-  })
-
+  var currentPage = PageView.findByURL(pathname)
   var pages = db.data['2G5d3iYyHe2QyGyeeEwC8c'].items.map(function (page) {
     return {
       a: {

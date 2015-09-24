@@ -3,6 +3,7 @@ module.exports = new DB()
 var request = require('../request')
 
 var url = 'https://cdn.contentful.com/spaces/' + process.env.CMS_SPACE + '/entries?limit=1000&access_token=' + process.env.CMS_KEY
+// var url = window.location.origin + '/build.json'
 
 var types = {
   '59ta0rmIx2qGQ8u2caiIQw': 'images',
