@@ -5,33 +5,29 @@ var template = require('./index.html')
 var db = require('../db')
 var md = require('marked').setOptions({ breaks: true })
 var lazy = require('../lazy-load')
+var slug = require('../slug')
 
 function NewsView () {
   this.el = hg(template)
 }
 
 NewsView.prototype.show = function (r) {
-  var parts = window.location.pathname.split('/')
-  var articles = []
-
-  if (parts.length >= 3) {
-    articles = [ db.data[parts[2]] ]
-  } else {
-    articles = Object.keys(db.index.news).map(function (id) {
-      return db.data[id]
-    }).sort(function (a, b) {
-      return new Date(b.date) - new Date(a.date)
-    })
-  }
-
-  articles = articles.map(function (article) {
+  var single = slug.match(window.location.pathname.split('/')[2])
+  var articles = Object.keys(db.index.news).map(function (id) {
+    return db.data[id]
+  }).filter(function (article) {
+    if (single) return single.test(article.title)
+    return true
+  }).sort(function (a, b) {
+    return new Date(b.date) - new Date(a.date)
+  }).map(function (article) {
     var contents = article.contents.map(function (block) {
       if (block.type === 'works') {
         return {
           '#image': block.attachmentUrl ? {
             'a': {
               _attr: {
-                href: '/work/' + block.id
+                href: '/work/' + slug.generate(block.title)
               }
             },
             'img': {
@@ -77,10 +73,10 @@ NewsView.prototype.show = function (r) {
     return {
       '#permalink': {
         _attr: {
-          'href': '/news/' + article.id
+          'href': '/news/' + slug.generate(article.title)
         }
       },
-      '#title': article.title || article.name || null,
+      '#title': article.title,
       '#date': (new Date(article.date)).toLocaleDateString(),
       'section': contents
     }

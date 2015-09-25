@@ -4,6 +4,7 @@ var hg = require('hyperglue2')
 var template = require('./index.html')
 var db = require('../db')
 var lazy = require('../lazy-load')
+var slug = require('../slug')
 
 var sizes = {
   '1': 200,
@@ -20,7 +21,7 @@ function WorksView () {
 }
 
 WorksView.prototype.show = function (r) {
-  var single = window.location.pathname.split('/')[2]
+  var single = slug.match(window.location.pathname.split('/')[2])
   var filter = r.location.query.theme || ''
   var themes = db.data['yqjJs1SH60YQUs6g4sQ4E'].items.map(function (theme, i) {
     return {
@@ -36,9 +37,9 @@ WorksView.prototype.show = function (r) {
     }
   })
   var works = Object.keys(db.index['works']).map(function (id) {
-    return db.index['works'][id]
+    return db.data[id]
   }).filter(function (work) {
-    if (single) return work.id === single
+    if (single) return single.test(work.title)
     return true
   }).sort(function (a, b) {
     return new Date(b.date) - new Date(a.date)
@@ -47,7 +48,6 @@ WorksView.prototype.show = function (r) {
     var size = String(work.size || '1')
     var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
     if (!single && url) {
-      url = url.replace(' ', '-').replace('&', '-')
       url = process.env.RESIZE_URL + '?container=focus&resize_w=' + sizes[size] + '&url=' + url
     }
     return {
@@ -56,7 +56,7 @@ WorksView.prototype.show = function (r) {
       },
       'a': {
         _attr: {
-          href: single ? null : '/work/' + work.id
+          href: single ? null : '/work/' + slug.generate(work.title)
         }
       },
       'img': {
