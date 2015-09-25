@@ -78,6 +78,8 @@ SearchView.prototype.show = function (r) {
   })
 
   this.render(results)
+
+  document.title = 'Search | Seth Tane'
 }
 
 SearchView.prototype.render = function (results) {

@@ -30,4 +30,6 @@ HomeView.prototype.show = function () {
   hg(this.el, {
     '.theme': themes
   })
+
+  document.title = 'Seth Tane'
 }

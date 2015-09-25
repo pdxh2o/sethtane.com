@@ -15,16 +15,13 @@ var templates = {
 PageView.reuse = true
 
 PageView.findByURL = function (url) {
-  var best = {
-    url: '',
-    title: '404',
-    body: 'Not Found'
-  }
+  var best = { title: 'Not Found', url: '' }
   var pages = db.index.pages
   for (var i in pages) {
     var page = db.index.pages[i]
     if (page.url.length > best.url.length &&
-        new RegExp('^' + page.url).test(url)) {
+        (page.url === '/' && url === '/' ||
+         page.url !== '/' && new RegExp('^' + page.url + '(\\b|$)').test(url))) {
       best = page
     }
   }
@@ -57,7 +54,7 @@ PageView.prototype.show = function (r) {
         hidden: !page.template
       }
     },
-    'section': (page.contents || []).map(function (block) {
+    'section': (page.contents || [ page ]).map(function (block) {
       if (block.type === 'works') {
         return {
           '#title': null,
@@ -105,6 +102,8 @@ PageView.prototype.show = function (r) {
         var show = new SlideshowView(block)
         show.start()
         return show
+      } else {
+        return { _html: '<h1 style="text-align: center;">404</h1>' }
       }
     })
   })
@@ -124,6 +123,11 @@ PageView.prototype.show = function (r) {
     this.templateView.show(r)
   } else {
     this.hideTemplate()
+    var title = 'Seth Tane'
+    if (page.url !== '/') {
+      title = page.title + ' | ' + title
+    }
+    document.title = title
   }
 }
 

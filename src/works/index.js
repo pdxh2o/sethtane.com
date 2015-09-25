@@ -5,6 +5,7 @@ var template = require('./index.html')
 var db = require('../db')
 var lazy = require('../lazy-load')
 var slug = require('../slug')
+var router = require('uri-router')
 
 var sizes = {
   '1': 200,
@@ -23,7 +24,9 @@ function WorksView () {
 WorksView.prototype.show = function (r) {
   var single = slug.match(window.location.pathname.split('/')[2])
   var filter = r.location.query.theme || ''
+  var isFilterValid = false
   var themes = db.data['yqjJs1SH60YQUs6g4sQ4E'].items.map(function (theme, i) {
+    isFilterValid = isFilterValid || filter === theme.title
     return {
       'a': {
         _text: theme.title,
@@ -36,6 +39,11 @@ WorksView.prototype.show = function (r) {
       }
     }
   })
+
+  if (filter && !isFilterValid) {
+    return router.redirect('/work')
+  }
+
   var works = Object.keys(db.index['works']).map(function (id) {
     return db.data[id]
   }).filter(function (work) {
@@ -101,6 +109,12 @@ WorksView.prototype.show = function (r) {
   } else {
     document.body.scrollTop = 0
   }
+
+  var title = 'Work | Seth Tane'
+  if (works.length === 0) title = 'Not Found | ' + title
+  else if (works.length === 1) title = works[0]['#title'] + ' | ' + title
+  else if (filter) title = filter + ' | ' + title
+  document.title = title
 }
 
 WorksView.prototype._onclick = function (evt) {

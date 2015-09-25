@@ -89,4 +89,9 @@ NewsView.prototype.show = function (r) {
   lazy.scan()
 
   document.body.scrollTop = 0
+
+  var title = 'News | Seth Tane'
+  if (articles.length === 0) title = 'Not Found | ' + title
+  else if (articles.length === 1) title = articles[0]['#title'] + ' | ' + title
+  document.title = title
 }
