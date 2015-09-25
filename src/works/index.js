@@ -81,11 +81,11 @@ WorksView.prototype.show = function (r) {
 
   lazy.scan()
 
-  if (single) {
-    document.body.scrollTop = 0
-  } else if (this._clicked) {
+  if (!single && this._clicked) {
     var img = this.el.querySelector('[data-id="' + this._clicked + '"]')
     document.body.scrollTop = (img.y || img.clientY) - (document.body.clientHeight / 3)
+  } else {
+    document.body.scrollTop = 0
   }
 }
 

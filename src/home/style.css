@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -19,6 +19,7 @@
   margin-left: 8px;
   margin-right: 8px;
   opacity: 0.9;
+  max-width: 280px;
 }
 
 #home .theme:hover {
@@ -26,8 +27,7 @@
 }
 
 #home .theme img {
-  width: 250px;
-  height: 175px;
+  width: 100%;
 }
 
 #home .theme #title {
