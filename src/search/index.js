@@ -45,7 +45,11 @@ SearchView.prototype.show = function (r) {
   results = Object.keys(results).map(function (id) {
     return results[id]
   }).sort(function (a, b) {
-    return b.matches.length - a.matches.length
+    var _a = a.item.attachmentUrl ? 100 : 0
+    var _b = b.item.attachmentUrl ? 100 : 0
+    _a += a.matches.length
+    _b += b.matches.length
+    return _b - _a
   })
 
   results = results.map(function (result) {
@@ -92,6 +96,7 @@ SearchView.prototype.match = function (item, query) {
   var matches = []
   for (var field in item) {
     if (field === 'id' || field === 'type' || field === 'attachmentUrl') continue
+    if (item.type === 'works' && field === 'title') continue
     field = item[field]
     if (Array.isArray(field)) {
       if (typeof field[0] === 'object') {
