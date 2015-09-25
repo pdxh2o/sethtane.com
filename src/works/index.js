@@ -85,7 +85,7 @@ WorksView.prototype.show = function (r) {
       'single': single
     },
     '.theme': themes,
-    '.work': works,
+    '.work': works.length ? works : [{ _html: '<h1>404</h1>' }],
     '#menu': {
       _class: {
         hidden: single

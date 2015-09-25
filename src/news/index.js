@@ -83,7 +83,7 @@ NewsView.prototype.show = function (r) {
   })
 
   hg(this.el, {
-    'article': articles
+    'article': articles.length ? articles : [{ _html: '<h1>404</h1>' }]
   })
 
   lazy.scan()
