@@ -5,6 +5,14 @@ var template = require('./index.html')
 var db = require('../db')
 var lazy = require('../lazy-load')
 
+var sizes = {
+  '1': 200,
+  '2': 300,
+  '3': 400,
+  '4': 500,
+  '6': 600
+}
+
 function WorksView () {
   this.el = hg(template)
   this._onclick = this._onclick.bind(this)
@@ -36,6 +44,12 @@ WorksView.prototype.show = function (r) {
     return new Date(b.date) - new Date(a.date)
   }).map(function (work) {
     var themes = work.themes ? work.themes.map(function (c) { return c.title }).join(',') : ''
+    var size = String(work.size || '1')
+    var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
+    if (!single && url) {
+      url = url.replace(' ', '-').replace('&', '-')
+      url = process.env.RESIZE_URL + '?container=focus&refresh=60&resize_w=' + sizes[size] + '&url=' + url
+    }
     return {
       _class: {
         'hidden': !single && filter && !themes.match(filter)
@@ -48,14 +62,14 @@ WorksView.prototype.show = function (r) {
       'img': {
         _attr: {
           'data-id': work.id,
-          'lazy-src': work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
+          'lazy-src': url
         },
         _class: {
-          '_1': !work.size || work.size == 1,
-          '_2': work.size == 2,
-          '_3': work.size == 3,
-          '_4': work.size == 4,
-          '_5': work.size == 5
+          '_1': size === '1',
+          '_2': size === '2',
+          '_3': size === '3',
+          '_4': size === '4',
+          '_5': size === '5'
         }
       },
       '#title': work.title,
