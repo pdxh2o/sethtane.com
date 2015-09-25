@@ -3,11 +3,12 @@ module.exports = WorksView
 var hg = require('hyperglue2')
 var template = require('./index.html')
 var db = require('../db')
+var lazy = require('../lazy-load')
 
 function WorksView () {
   this.el = hg(template)
-  this._onscroll = this._onscroll.bind(this)
-  document.addEventListener('scroll', this._onscroll)
+  this._onclick = this._onclick.bind(this)
+  document.addEventListener('click', this._onclick)
 }
 
 WorksView.prototype.show = function (r) {
@@ -46,7 +47,8 @@ WorksView.prototype.show = function (r) {
       },
       'img': {
         _attr: {
-          src: work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
+          'data-id': work.id,
+          'lazy-src': work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
         },
         _class: {
           '_1': !work.size || work.size == 1,
@@ -65,7 +67,8 @@ WorksView.prototype.show = function (r) {
 
   hg(this.el, {
     _class: {
-      'active': filter
+      'active': filter,
+      'single': single
     },
     '.theme': themes,
     '.work': works,
@@ -73,29 +76,25 @@ WorksView.prototype.show = function (r) {
       _class: {
         hidden: single
       }
-    },
-    '#index': {
-      _class: {
-        single: single
-      }
     }
   })
 
+  lazy.scan()
+
   if (single) {
-    this._single = true
     document.body.scrollTop = 0
-  } else if (this._lastScroll) {
-    delete this._single
-    document.body.scrollTop = this._lastScroll
+  } else if (this._clicked) {
+    var img = this.el.querySelector('[data-id="' + this._clicked + '"]')
+    document.body.scrollTop = (img.y || img.clientY) - (document.body.clientHeight / 3)
   }
 }
 
-WorksView.prototype._onscroll = function (evt) {
-  if (!this._single) {
-    this._lastScroll = document.body.scrollTop
+WorksView.prototype._onclick = function (evt) {
+  if (!this.el.classList.contains('single')) {
+    this._clicked = evt.target.getAttribute('data-id')
   }
 }
 
 WorksView.prototype.hide = function () {
-  document.removeEventListener('scroll', this._onscroll)
+  this.el.removeEventListener('click', this._onclick)
 }

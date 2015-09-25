@@ -12,7 +12,7 @@ function SlideshowView (data) {
       return {
         'img': {
           _attr: {
-            src: process.env.CDN_URL + slide.attachmentUrl
+            'lazy-src': process.env.CDN_URL + slide.attachmentUrl
           }
         },
         '#caption': isWork ? null: slide.caption,
@@ -52,7 +52,19 @@ function show () {
     slide.classList.remove('active')
   })
   var nextSlide = this.childNodes[this.index]
+  var nextNextSlide = nextSlide.nextSibling
   nextSlide.classList.add('active')
+  unlazy(nextSlide)
+  unlazy(nextNextSlide)
+}
+
+function unlazy (node) {
+  var img = node.querySelector('img')
+  var src = img.getAttribute('lazy-src')
+  if (src) {
+    img.setAttribute('src', src)
+    img.removeAttribute('lazy-src')
+  }
 }
 
 function prev () {

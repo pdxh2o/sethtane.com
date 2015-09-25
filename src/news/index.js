@@ -4,6 +4,7 @@ var hg = require('hyperglue2')
 var template = require('./index.html')
 var db = require('../db')
 var md = require('marked').setOptions({ breaks: true })
+var lazy = require('../lazy-load')
 
 function NewsView () {
   this.el = hg(template)
@@ -35,7 +36,7 @@ NewsView.prototype.show = function (r) {
             },
             'img': {
               _attr: {
-                src: process.env.CDN_URL + block.attachmentUrl
+                'lazy-src': process.env.CDN_URL + block.attachmentUrl
               }
             }
           } : null,
@@ -51,7 +52,7 @@ NewsView.prototype.show = function (r) {
           '#image': block.attachmentUrl ? {
             'img': {
               _attr: {
-                src: process.env.CDN_URL + block.attachmentUrl
+                'lazy-src': process.env.CDN_URL + block.attachmentUrl
               }
             }
           } : null,
@@ -88,6 +89,8 @@ NewsView.prototype.show = function (r) {
   hg(this.el, {
     'article': articles
   })
+
+  lazy.scan()
 
   document.body.scrollTop = 0
 }

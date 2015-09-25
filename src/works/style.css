@@ -93,28 +93,28 @@
   font-style: italic;
 }
 
-#works #index.single {
+#works.single #index {
   margin-left: 0;
   max-width: 100%;
 }
 
-#works #index.single .work {
+#works.single #index .work {
   display: block;
 }
 
-#works #index.single .work #meta {
+#works.single #index .work #meta {
   margin-left: 0;
   margin-top: 15px;
   font-size: 14px;
 }
 
-#works #index.single .work #meta #title {
+#works.single #index .work #meta #title {
   font-style: italic;
   margin-left: 0;
   flex: 1;
 }
 
-#works #index.single .work img {
+#works.single #index .work img {
   width: auto;
 }
 
@@ -140,15 +140,15 @@
     margin-left: 40px;
   }
 
-  #works #index.single {
+  #works.single #index {
     max-width: 100%;
   }
 
-  #works #index.single .work #meta {
+  #works.single #index .work #meta {
     display: flex;
   }
 
-  #works #index.single .work #meta > * {
+  #works.single #index .work #meta > * {
     margin-left: 15px;
   }
 }
