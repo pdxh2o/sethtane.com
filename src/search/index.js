@@ -4,6 +4,7 @@ var hg = require('hyperglue2')
 var template = require('./index.html')
 var NavView = require('../nav')
 var db = require('../db')
+var slug = require('../slug')
 
 function SearchView () {
   this.el = hg(template)
@@ -161,9 +162,9 @@ function urlForItem (item) {
   if (item.type === 'pages') {
     return item.url
   } else if (item.type === 'works') {
-    return '/work/' + item.id
+    return '/work/' + slug.generate(item.title)
   } else if (item.type === 'news') {
-    return '/news/' + item.id
+    return '/news/' + slug.generate(item.title)
   }
 }
 
