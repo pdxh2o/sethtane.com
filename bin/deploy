@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# cd to project directory
+cd "$(dirname "$BASH_SOURCE")"/..
+
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+
+# move source code to server
+git push st.com "$BRANCH"
+
+#update build
+ssh st.com 'cd sethtane.com/builds/'"$BRANCH"'/www; git pull'
