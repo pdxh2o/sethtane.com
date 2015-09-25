@@ -20,4 +20,7 @@ db.fetch(function (err) {
       '.*': require('./src/pages')
     }
   })
+
+  document.querySelector('#app').classList.remove('loading')
+  document.querySelector('#footer').classList.remove('hidden')
 })
