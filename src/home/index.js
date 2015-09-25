@@ -18,7 +18,7 @@ HomeView.prototype.show = function () {
       },
       'img': {
         _attr: {
-          src: process.env.CDN_URL + theme.attachmentUrl
+          src: process.env.RESIZE_URL + '?container=focus&resize_w=560&resize_h=420&url=' + process.env.CDN_URL + theme.attachmentUrl
         }
       },
       '#title': {

@@ -48,7 +48,7 @@ WorksView.prototype.show = function (r) {
     var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
     if (!single && url) {
       url = url.replace(' ', '-').replace('&', '-')
-      url = process.env.RESIZE_URL + '?container=focus&refresh=60&resize_w=' + sizes[size] + '&url=' + url
+      url = process.env.RESIZE_URL + '?container=focus&resize_w=' + sizes[size] + '&url=' + url
     }
     return {
       _class: {
