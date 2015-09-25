@@ -9,4 +9,4 @@ BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 git push st.com "$BRANCH"
 
 #update build
-ssh st.com 'cd sethtane.com/builds/'"$BRANCH"'/www; git pull'
+ssh st.com 'cd sethtane.com/builds/'"$BRANCH"'/www; git pull && npm run build'
