@@ -46,8 +46,8 @@ SearchView.prototype.show = function (r) {
   results = Object.keys(results).map(function (id) {
     return results[id]
   }).sort(function (a, b) {
-    var _a = a.item.attachmentUrl ? 100 : 0
-    var _b = b.item.attachmentUrl ? 100 : 0
+    var _a = a.item.attachmentUrl ? 1 : 0
+    var _b = b.item.attachmentUrl ? 1 : 0
     _a += a.matches.length
     _b += b.matches.length
     return _b - _a
@@ -57,6 +57,10 @@ SearchView.prototype.show = function (r) {
     var match = result.matches[0]
     var preview = getPreviewParts(match.index, match[0].length, match.input)
     var count = result.matches.length
+    var url = result.item.attachmentUrl ? process.env.CDN_URL + result.item.attachmentUrl : null
+    if (url) {
+      url = process.env.RESIZE_URL + '?container=focus&resize_h=120&url=' + url
+    }
     return {
       'a': {
         _attr: {
@@ -68,9 +72,9 @@ SearchView.prototype.show = function (r) {
         _html: preview[0] + '<span class="match">' + match[0] + '</span>' + preview[1]
       },
       '#count': count === 1 ? null : '+' + (count - 1) + ' other match' + (count > 2 ? 'es' : ''),
-      '#image-preview': result.item.attachmentUrl ? {
+      '#image-preview': url ? {
         _attr: {
-          src: process.env.CDN_URL + result.item.attachmentUrl
+          style: 'background-image: url("' + url + '");'
         }
       } : null,
       '#text-preview': result.item.attachmentUrl ? null : ''
@@ -124,9 +128,20 @@ SearchView.prototype.match = function (item, query) {
 }
 
 function tokenizeQuery (query) {
+  query = query.trim()
   var terms = query.trim().split(' ')
-  return terms.map(function (term) {
-    return new RegExp(escapeRegExp(term), 'ig')
+  terms.unshift(query)
+  return terms.filter(function (term) {
+    return !!term &&
+      term !== 'and' &&
+      term !== 'is' &&
+      term !== 'are' &&
+      term !== 'the' &&
+      term !== 'this' &&
+      term !== 'then' &&
+      term !== 'there'
+  }).map(function (term) {
+    return new RegExp('\\b' + escapeRegExp(term) + '\\b', 'ig')
   })
 }
 

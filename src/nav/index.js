@@ -17,7 +17,9 @@ function NavView () {
 }
 
 NavView.prototype.show = function (r) {
-  this.search.value = r.location.query.q || ''
+  if (this.search.value !== r.location.query.q) {
+    this.search.value = r.location.query.q || ''
+  }
 
   var pathname = window.location.pathname
   if (pathname === this._lastPathname) {
