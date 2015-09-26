@@ -115,6 +115,7 @@
 }
 
 #works.single #index .work img {
+  width: auto;
   margin: auto;
 }
 
