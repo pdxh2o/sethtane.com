@@ -1,0 +1,25 @@
+{
+  "name": "www.sethtane.com",
+  "version": "1.0.0",
+  "description": "www.sethtane.com",
+  "scripts": {
+    "dev": ". ./env.sh && dev",
+    "build": ". ./env.sh && build-css && build-js",
+    "start": "npm run build && app-server",
+    "migrate": ". ./env.sh && node bin/migrate.js",
+    "migrate-field": ". ./env.sh && node bin/migrate-field.js"
+  },
+  "dependencies": {
+    "build-css": "jessetane/build-css",
+    "build-js": "jessetane/build-js",
+    "hyperglue2": "^2.0.0",
+    "marked": "^0.3.5",
+    "uri-router": "jessetane/uri-router"
+  },
+  "devDependencies": {
+    "dev": "jessetane/dev",
+    "queue": "^3.1.0"
+  },
+  "repository": "https://github.com/pdxh2o/sethtane.com",
+  "author": "jesse.tane@gmail.com"
+}

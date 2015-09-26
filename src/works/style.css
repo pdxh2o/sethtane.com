@@ -1,0 +1,154 @@
+#works {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+#works #menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+#works #menu li {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#works #menu li a {
+  display: table;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0;
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+}
+
+#works #menu li a:hover,
+#works #menu li a.hover {
+  border-bottom: 2px solid #111;
+}
+
+#works #index {
+  margin: 0;
+  margin-left: 0;
+  max-width: 400px;
+}
+
+#works #index .work {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#works #index .work a {
+  display: block;
+  border: 0;
+}
+
+#works #index .work a:hover {
+  border: 0;
+}
+
+#works #index .work img {
+  display: block;
+  max-width: 100%;
+}
+
+#works #index .work img._1 {
+  width: 100px;
+}
+
+#works #index .work img._2 {
+  width: 150px;
+}
+
+#works #index .work img._3 {
+  width: 200px;
+}
+
+#works #index .work img._4 {
+  width: 250px;
+}
+
+#works #index .work img._5 {
+  width: 300px;
+}
+
+#works #index .work #meta {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+#works #index .work #meta #title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#works.single #index {
+  margin-left: 0;
+  max-width: 100%;
+}
+
+#works.single #index .work {
+  display: block;
+}
+
+#works.single #index .work #meta {
+  margin-left: 0;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+#works.single #index .work #meta #title {
+  font-style: italic;
+  margin-left: 0;
+  flex: 1;
+}
+
+#works.single #index .work img {
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #works {
+    display: flex;
+    justify-content: center;
+  }
+
+  #works #menu {
+    display: table;
+    margin-bottom: 0;
+  }
+
+  #works #menu li {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0px;
+  }
+
+  #works #index {
+    margin-left: 40px;
+  }
+
+  #works.single #index {
+    max-width: 100%;
+  }
+
+  #works.single #index .work #meta {
+    display: flex;
+  }
+
+  #works.single #index .work #meta > * {
+    margin-left: 15px;
+  }
+}

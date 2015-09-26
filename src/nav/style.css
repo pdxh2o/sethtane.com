@@ -1,0 +1,57 @@
+#nav {
+  margin: auto;
+  text-align: center;
+}
+
+#nav h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#nav h1 a:hover {
+  border: 1px solid transparent;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav li a {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#nav li a:hover,
+#nav li a.hover {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+#nav form {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+#nav form input {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  #nav li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
