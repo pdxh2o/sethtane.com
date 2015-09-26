@@ -59,6 +59,7 @@ function show () {
 }
 
 function unlazy (node) {
+  if (!node) return
   var img = node.querySelector('img')
   var src = img.getAttribute('lazy-src')
   if (src) {
