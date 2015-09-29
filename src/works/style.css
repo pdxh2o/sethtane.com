@@ -100,6 +100,7 @@
 
 #works.single #index .work {
   display: block;
+  max-width: 800px;
 }
 
 #works.single #index .work #meta {
@@ -117,7 +118,7 @@
 #works.single #index .work img {
   width: auto;
   margin: auto;
-  max-width: 800px;
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
