@@ -55,8 +55,12 @@ WorksView.prototype.show = function (r) {
     var themes = work.themes ? work.themes.map(function (c) { return c.title }).join(',') : ''
     var size = String(work.size || '1')
     var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
-    if (!single && url) {
-      url = process.env.RESIZE_URL + '?container=focus&resize_w=' + sizes[size] + '&url=' + url
+    if (url) {
+      if (single) {
+        url = process.env.RESIZE_URL + '?container=focus&resize_w=1600&url=' + url
+      } else {
+        url = process.env.RESIZE_URL + '?container=focus&resize_w=' + sizes[size] + '&url=' + url
+      }
     }
     return {
       _class: {
