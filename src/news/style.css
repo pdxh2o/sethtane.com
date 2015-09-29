@@ -61,6 +61,15 @@
   margin-bottom: 20px;
 }
 
+#news article #image a {
+  display: block;
+  max-width: 100%;
+}
+
+#news article #image a:hover {
+  border-bottom: 1px solid transparent;
+}
+
 #news article img {
   display: block;
   max-width: 100%;

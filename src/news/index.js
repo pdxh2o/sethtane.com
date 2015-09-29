@@ -35,7 +35,7 @@ NewsView.prototype.show = function (r) {
             },
             'img': {
               _attr: {
-                'lazy-src': process.env.CDN_URL + block.attachmentUrl
+                'lazy-src': process.env.RESIZE_URL + '?container=focus&resize_w=1600&url=' + process.env.CDN_URL + block.attachmentUrl
               }
             }
           } : null,
@@ -51,7 +51,7 @@ NewsView.prototype.show = function (r) {
           '#image': block.attachmentUrl ? {
             'img': {
               _attr: {
-                'lazy-src': process.env.CDN_URL + block.attachmentUrl
+                'lazy-src': process.env.RESIZE_URL + '?container=focus&resize_w=1600&url=' + process.env.CDN_URL + block.attachmentUrl
               }
             }
           } : null,
