@@ -10,6 +10,9 @@ function SlideshowView (data) {
     'li': data.slides.map(function (slide) {
       var isWork = slide.type === 'works'
       return {
+        _class: {
+          'lazy-loading': true
+        },
         'img': {
           _attr: {
             'lazy-src': process.env.CDN_URL + slide.attachmentUrl
@@ -65,6 +68,9 @@ function unlazy (node) {
   if (src) {
     img.setAttribute('src', src)
     img.removeAttribute('lazy-src')
+    img.onload = function () {
+      img.parentNode.classList.remove('lazy-loading')
+    }
   }
 }
 
