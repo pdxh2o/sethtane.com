@@ -2,6 +2,7 @@ module.exports = NewsView
 
 var hg = require('hyperglue2')
 var template = require('./index.html')
+var shareTemplate = require('./share.html')
 var db = require('../db')
 var md = require('marked').setOptions({ breaks: true })
 var lazy = require('../lazy-load')
@@ -9,6 +10,8 @@ var slug = require('../slug')
 
 function NewsView () {
   this.el = hg(template)
+  this._onclick = this._onclick.bind(this)
+  this.el.addEventListener('click', this._onclick)
 }
 
 NewsView.prototype.show = function (r) {
@@ -71,13 +74,19 @@ NewsView.prototype.show = function (r) {
     })
 
     return {
-      '#permalink': {
+      '#title': {
+        _text: article.title,
         _attr: {
-          'href': '/news/' + slug.generate(article.title)
+          href: '/news/' + slug.generate(article.title)
         }
       },
-      '#title': article.title,
       '#date': (new Date(article.date)).toLocaleDateString(),
+      '#share-button': {
+        _attr: {
+          'data-title': article.title,
+          'data-url': '/news/' + slug.generate(article.title)
+        }
+      },
       'section': contents
     }
   })
@@ -92,6 +101,31 @@ NewsView.prototype.show = function (r) {
 
   var title = 'News | Seth Tane'
   if (articles.length === 0) title = 'Not Found | ' + title
-  else if (articles.length === 1) title = articles[0]['#title'] + ' | ' + title
+  else if (articles.length === 1) title = articles[0]['#title']._text + ' | ' + title
   document.title = title
+}
+
+NewsView.prototype._onclick = function (evt) {
+  var target = evt.target
+  if (target.id === 'share-button') {
+    var title = target.getAttribute('data-title')
+    var url = window.location.origin + target.getAttribute('data-url')
+    var el = hg(shareTemplate, {
+      '#title': title,
+      'a': {
+        _text: url,
+        _attr: {
+          href: url
+        }
+      }
+    })
+    el.addEventListener('click', function (evt) {
+      var id = evt.target.id
+      if (/close|share/.test(id)) {
+        el.parentNode.removeChild(el)
+      }
+    })
+    var app = document.querySelector('#app')
+    app.appendChild(el)
+  }
 }
