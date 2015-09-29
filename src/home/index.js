@@ -3,6 +3,7 @@ module.exports = HomeView
 var hg = require('hyperglue2')
 var template = require('./index.html')
 var db = require('../db')
+var lazy = require('../lazy-load')
 
 function HomeView () {
   this.el = hg(template)
@@ -18,7 +19,7 @@ HomeView.prototype.show = function () {
       },
       'img': {
         _attr: {
-          src: process.env.RESIZE_URL + '?container=focus&resize_w=560&resize_h=420&url=' + process.env.CDN_URL + theme.attachmentUrl
+          'lazy-src': process.env.RESIZE_URL + '?container=focus&resize_w=560&resize_h=420&url=' + process.env.CDN_URL + theme.attachmentUrl
         }
       },
       '#title': {
@@ -30,6 +31,8 @@ HomeView.prototype.show = function () {
   hg(this.el, {
     '.theme': themes
   })
+
+  lazy.scan()
 
   document.title = 'Seth Tane'
 }

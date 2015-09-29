@@ -23,6 +23,7 @@
 
 #home .theme a {
   opacity: 0.9;
+  display: block;
 }
 
 #home .theme a:hover {
