@@ -12,7 +12,7 @@ LazyLoader.prototype.scan = function () {
 
 LazyLoader.prototype._onscroll = function () {
   clearTimeout(this._debounce)
-  this._debounce = setTimeout(this._doload, 100)
+  this._debounce = setTimeout(this._doload, 50)
 }
 
 LazyLoader.prototype._doload = function () {
