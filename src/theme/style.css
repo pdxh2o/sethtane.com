@@ -15,10 +15,10 @@
   width: 60px;
   margin: 0px auto;
   animation: spinner-rotation 2s infinite linear;
-  border-left: 20px solid rgba(239,233,220,1);
-  border-right: 20px solid rgba(239,233,220,1);
-  border-bottom: 20px solid rgba(239,233,220,1);
-  border-top: 20px solid rgba(239,233,220,0);
+  border-left: 20px solid rgba(231,223,202,1);
+  border-right: 20px solid rgba(231,223,202,1);
+  border-bottom: 20px solid rgba(231,223,202,1);
+  border-top: 20px solid rgba(231,223,202,0);
   border-radius: 100%;
   background: transparent;
 }
