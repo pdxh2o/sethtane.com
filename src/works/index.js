@@ -57,9 +57,9 @@ WorksView.prototype.show = function (r) {
     var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
     if (url) {
       if (single) {
-        url = process.env.RESIZE_URL + '?container=focus&resize_w=1600&url=' + url
+        url = process.env.RESIZE_URL + 'resize_w=1600&url=' + url
       } else {
-        url = process.env.RESIZE_URL + '?container=focus&resize_w=' + sizes[size] + '&url=' + url
+        url = process.env.RESIZE_URL + 'resize_w=' + sizes[size] + '&url=' + url
       }
     }
     return {

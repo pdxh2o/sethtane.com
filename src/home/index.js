@@ -19,7 +19,7 @@ HomeView.prototype.show = function () {
       },
       'img': {
         _attr: {
-          'lazy-src': process.env.RESIZE_URL + '?container=focus&resize_w=560&resize_h=420&url=' + process.env.CDN_URL + theme.attachmentUrl
+          'lazy-src': process.env.RESIZE_URL + 'resize_w=560&resize_h=420&url=' + process.env.CDN_URL + theme.attachmentUrl
         }
       },
       '#title': {
