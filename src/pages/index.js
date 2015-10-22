@@ -19,10 +19,15 @@ PageView.findByURL = function (url) {
   var pages = db.index.pages
   for (var i in pages) {
     var page = db.index.pages[i]
-    if (page.url.length > best.url.length &&
-        (page.url === '/' && url === '/' ||
-         page.url !== '/' && new RegExp('^' + page.url + '(\\b|$)').test(url))) {
-      best = page
+    if (page.url.length > best.url.length) {
+      if (page.url === '/') {
+        if (url === '/' || url === '/index.html') {
+          best = page
+          break
+        }
+      } else if (new RegExp('^' + page.url + '(\\b|$)').test(url)) {
+        best = page
+      }
     }
   }
   return best
