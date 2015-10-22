@@ -121,7 +121,7 @@ NewsView.prototype._onclick = function (evt) {
     })
     el.addEventListener('click', function (evt) {
       var id = evt.target.id
-      if (/close|share/.test(id)) {
+      if (/close|share|link/.test(id)) {
         el.parentNode.removeChild(el)
       }
     })

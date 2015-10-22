@@ -4,10 +4,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html {
-  background: #f7f4ed;
-}
-
 html,
 body {
   height: 100%;
@@ -15,26 +11,12 @@ body {
   padding: 0;
   position: relative;
   font-size: 100%;
-  font-family: sans-serif;
   color: #333;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  margin-bottom: -1px;
-}
-
-a:hover,
-a.hover {
-  border-bottom: 1px solid #333;
 }
 
 input {
   font-family: inherit;
   font-size: inherit;
-  background: #faf9f4;
   border: 1px solid #CCC;
   padding: 4px;
   -webkit-appearance: none;

@@ -9,7 +9,7 @@
 #news article {
   padding-bottom: 10px;
   margin-bottom: 60px;
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #333;
   line-height: 1.6;
 }
 
@@ -44,7 +44,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   cursor: pointer;
-  color: #b3ab98;
+  color: #998a66;
 }
 
 #news article #meta #share-button:hover {
@@ -99,10 +99,6 @@
   font-style: italic;
 }
 
-#news article #text a {
-  border-bottom: 1px solid;
-}
-
 #share {
   position: fixed;
   width: 100%;
@@ -133,7 +129,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  color: #b3ab98;
+  color: #998a66;
 }
 
 #share #close:hover {

@@ -30,6 +30,7 @@
 #nav li a {
   font-size: 16px;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 #nav li a:hover,

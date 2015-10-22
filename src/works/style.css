@@ -23,17 +23,18 @@
 
 #works #menu li a {
   display: table;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
   text-transform: uppercase;
   font-size: 12px;
   padding: 0;
+  padding-bottom: 1px;
   margin-bottom: 3px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 #works #menu li a:hover,
 #works #menu li a.hover {
-  border-bottom: 2px solid #111;
+  border-bottom: 1px solid #111;
 }
 
 #works #index {
