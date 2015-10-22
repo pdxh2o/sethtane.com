@@ -47,3 +47,7 @@ img {
   background-color: #CCC;
   border: 1px solid #111;
 }
+
+a[href] img:hover {
+  opacity: 0.9;
+}

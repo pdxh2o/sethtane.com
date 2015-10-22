@@ -26,7 +26,6 @@
 }
 
 #home .theme a:hover {
-  opacity: .9;
   border-bottom: 1px solid transparent;
 }
 
