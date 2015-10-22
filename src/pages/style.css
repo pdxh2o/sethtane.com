@@ -19,10 +19,6 @@
   text-transform: uppercase;
 }
 
-#page > #contents a {
-  border-bottom: 1px solid #111;
-}
-
 #page > #contents #title {
   margin-top: 25px;
   margin-bottom: 10px;
