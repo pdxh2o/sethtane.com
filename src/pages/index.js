@@ -103,7 +103,7 @@ PageView.prototype.show = function (r) {
         show.start()
         return show
       } else {
-        return { _html: '<h1 style="text-align: center;">404</h1>' }
+        return { _html: block.template ? null : '<h1 style="text-align: center;">404</h1>' }
       }
     })
   })
