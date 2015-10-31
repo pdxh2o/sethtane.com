@@ -70,6 +70,8 @@ DB.prototype.fetch = function (cb) {
 
 Object.defineProperty(DB.prototype, 'settings', {
   get: function () {
-    return this.data['DdJRngcVXisIG0giQm0Ky']
+    var settings = Object.keys(this.index['settings'])[0]
+    settings = this.index['settings'][settings]
+    return settings
   }
 })
