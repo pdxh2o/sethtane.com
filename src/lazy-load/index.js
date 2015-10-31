@@ -30,7 +30,9 @@ LazyLoader.prototype._doload = function () {
         image.setAttribute('src', lazySrc)
         image.removeAttribute('lazy-src')
         image.onload = function () {
-          image.parentNode.classList.remove('lazy-loading')
+          if (image.parentNode) {
+            image.parentNode.classList.remove('lazy-loading')
+          }
         }
       }
     }
