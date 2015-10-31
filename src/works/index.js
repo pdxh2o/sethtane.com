@@ -24,9 +24,9 @@ function WorksView () {
 WorksView.prototype.show = function (r) {
   var single = slug.match(window.location.pathname.split('/')[2])
   var filter = r.location.query.theme || ''
-  var isFilterValid = false
+  var selectedTheme = false
   var themes = db.data['yqjJs1SH60YQUs6g4sQ4E'].items.map(function (theme, i) {
-    isFilterValid = isFilterValid || filter === theme.title
+    if (filter === theme.title) selectedTheme = theme
     return {
       'a': {
         _text: theme.title,
@@ -40,7 +40,7 @@ WorksView.prototype.show = function (r) {
     }
   })
 
-  if (filter && !isFilterValid) {
+  if (filter && !selectedTheme) {
     return router.redirect('/work')
   }
 
@@ -115,10 +115,23 @@ WorksView.prototype.show = function (r) {
   }
 
   var title = 'Work | Seth Tane'
-  if (works.length === 0) title = 'Not Found | ' + title
-  else if (works.length === 1) title = works[0]['#title'] + ' | ' + title
-  else if (filter) title = filter + ' | ' + title
+  var description = null
+  if (works.length === 0) {
+    title = 'Not Found | ' + title
+    description = ''
+  } else if (works.length === 1) {
+    var work = works[0]
+    title = work['#title'] + ' | ' + title
+    description = work['#medium'] + ' ' + work['#date'] + ' ' + work['#dimensions']
+    description = description[0].toUpperCase() + description.slice(1)
+  } else if (filter) {
+    title = filter + ' | ' + title
+    description = selectedTheme.description
+  }
   document.title = title
+  if (description !== null) {
+    document.querySelector('[name=description]').setAttribute('content', description)
+  }
 }
 
 WorksView.prototype._onclick = function (evt) {
