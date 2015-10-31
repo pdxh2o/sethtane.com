@@ -114,7 +114,7 @@ WorksView.prototype.show = function (r) {
     document.body.scrollTop = 0
   }
 
-  var title = 'Work | Seth Tane'
+  var title = 'Work | ' + db.settings.baseTitle
   var description = null
   if (works.length === 0) {
     title = 'Not Found | ' + title

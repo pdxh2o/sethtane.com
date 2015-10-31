@@ -34,5 +34,5 @@ HomeView.prototype.show = function () {
 
   lazy.scan()
 
-  document.title = 'Seth Tane'
+  document.title = db.settings.baseTitle
 }

@@ -99,7 +99,7 @@ NewsView.prototype.show = function (r) {
 
   document.body.scrollTop = 0
 
-  var title = 'News | Seth Tane'
+  var title = 'News | ' + db.settings.baseTitle
   if (articles.length === 0) {
     title = 'Not Found | ' + title
   } else if (articles.length === 1) {

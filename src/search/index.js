@@ -83,7 +83,7 @@ SearchView.prototype.show = function (r) {
 
   this.render(results)
 
-  document.title = 'Search | Seth Tane'
+  document.title = 'Search | ' + db.settings.baseTitle
 }
 
 SearchView.prototype.render = function (results) {

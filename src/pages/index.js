@@ -113,7 +113,7 @@ PageView.prototype.show = function (r) {
     })
   })
 
-  var title = 'Seth Tane'
+  var title = db.settings.baseTitle
   if (page.url !== '/') {
     title = page.title + ' | ' + title
   }
