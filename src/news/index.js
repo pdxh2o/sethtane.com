@@ -100,8 +100,16 @@ NewsView.prototype.show = function (r) {
   document.body.scrollTop = 0
 
   var title = 'News | Seth Tane'
-  if (articles.length === 0) title = 'Not Found | ' + title
-  else if (articles.length === 1) title = articles[0]['#title']._text + ' | ' + title
+  if (articles.length === 0) {
+    title = 'Not Found | ' + title
+  } else if (articles.length === 1) {
+    title = articles[0]['#title']._text + ' | ' + title
+    var description = document.querySelector('#text').textContent
+    description = description.slice(0, 130)
+    description = description.split(' ').slice(0, -2).join(' ')
+    description = description.replace(/[,.]$/, '') + '…'
+    document.querySelector('[name=description]').setAttribute('content', description)
+  }
   document.title = title
 }
 
