@@ -113,6 +113,14 @@ PageView.prototype.show = function (r) {
     })
   })
 
+  var title = 'Seth Tane'
+  if (page.url !== '/') {
+    title = page.title + ' | ' + title
+  }
+  var description = page.description || ''
+  document.title = title
+  document.querySelector('[name=description]').setAttribute('content', description)
+
   if (page.template) {
     var TemplateView = templates[page.template.toLowerCase()]
     if (this.templateView) {
@@ -128,11 +136,6 @@ PageView.prototype.show = function (r) {
     this.templateView.show(r)
   } else {
     this.hideTemplate()
-    var title = 'Seth Tane'
-    if (page.url !== '/') {
-      title = page.title + ' | ' + title
-    }
-    document.title = title
   }
 }
 
