@@ -21,6 +21,17 @@ db.fetch(function (err) {
     }
   })
 
+  router({
+    watch: 'pathname',
+    routes: {
+      '.*': function () {
+        if (window.ga) {
+          window.ga('send', 'pageview', window.location.pathname)
+        }
+      }
+    }
+  })
+
   document.querySelector('#app').classList.remove('loading')
   document.querySelector('#footer').classList.remove('hidden')
 })
