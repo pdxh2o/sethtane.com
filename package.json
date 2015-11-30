@@ -10,11 +10,11 @@
     "migrate-field": ". ./env.sh && node bin/migrate-field.js"
   },
   "dependencies": {
-    "build-css": "jessetane/build-css",
-    "build-js": "jessetane/build-js",
+    "build-css": "jessetane/build-css#1.0.6",
+    "build-js": "jessetane/build-js#1.0.1",
     "hyperglue2": "^2.0.0",
     "marked": "^0.3.5",
-    "uri-router": "jessetane/uri-router"
+    "uri-router": "jessetane/uri-router#0.0.5"
   },
   "devDependencies": {
     "dev": "jessetane/dev",
