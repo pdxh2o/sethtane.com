@@ -4,7 +4,8 @@
   "description": "www.sethtane.com",
   "scripts": {
     "dev": ". ./env.sh && dev",
-    "build": ". ./env.sh && build-css && build-js",
+    "build": ". ./env.sh && build-css && build-js && [ \"$NODE_ENV\" = \"production\" ] && npm run minify",
+    "minify": "cp share/build.js share/build.debug.js; uglifyjs share/build.debug.js > share/build.js",
     "start": "npm run build && app-server",
     "migrate": ". ./env.sh && node bin/migrate.js",
     "migrate-field": ". ./env.sh && node bin/migrate-field.js"
@@ -14,6 +15,7 @@
     "build-js": "jessetane/build-js#1.0.1",
     "hyperglue2": "^2.0.0",
     "marked": "^0.3.5",
+    "uglify-js": "^2.6.1",
     "uri-router": "jessetane/uri-router#0.0.5"
   },
   "devDependencies": {
