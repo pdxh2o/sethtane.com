@@ -83,6 +83,10 @@
   width: 300px;
 }
 
+#works #index .work img._6 {
+  width: 350px;
+}
+
 #works #index .work #meta {
   font-size: 12px;
   line-height: 1.5;
