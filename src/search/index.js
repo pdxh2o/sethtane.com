@@ -59,7 +59,7 @@ SearchView.prototype.show = function (r) {
     var count = result.matches.length
     var url = result.item.attachmentUrl ? process.env.CDN_URL + result.item.attachmentUrl : null
     if (url) {
-      url = process.env.RESIZE_URL + 'resize_h=120&url=' + url
+      url = process.env.RESIZE_URL + url + '?q=' + process.env.IMAGE_QUALITY + '&fit=fill&w=120&h=120'
     }
     return {
       'a': {

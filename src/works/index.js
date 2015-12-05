@@ -56,10 +56,11 @@ WorksView.prototype.show = function (r) {
     var size = String(work.size || '1')
     var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
     if (url) {
+      url = process.env.RESIZE_URL + url + '?q=' + process.env.IMAGE_QUALITY
       if (single) {
-        url = process.env.RESIZE_URL + 'resize_w=1600&url=' + url
+        url += '&fit=fill&w=1600&h=1600'
       } else {
-        url = process.env.RESIZE_URL + 'resize_w=' + sizes[size] + '&url=' + url
+        url += '&fit=fill&w=' + sizes[size] + '&h=' + sizes[size]
       }
     }
     return {
