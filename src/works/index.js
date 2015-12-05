@@ -59,9 +59,9 @@ WorksView.prototype.show = function (r) {
     if (url) {
       url = process.env.RESIZE_URL + url + '?q=' + process.env.IMAGE_QUALITY
       if (single) {
-        url += '&fit=fill&w=1600&h=1600'
+        url += '&fit=max&w=1600&h=1600'
       } else {
-        url += '&fit=fill&w=' + sizes[size] + '&h=' + sizes[size]
+        url += '&fit=max&w=' + sizes[size] + '&h=' + sizes[size]
       }
     }
     return {

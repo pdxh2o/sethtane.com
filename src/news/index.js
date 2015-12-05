@@ -142,5 +142,5 @@ function makeImageUrl (url, size) {
   return process.env.RESIZE_URL +
     process.env.CDN_URL + url +
     '?q=' + process.env.IMAGE_URL +
-    '&fit=fill&w=1400&h=1400'
+    '&fit=max&w=1400&h=1400'
 }
