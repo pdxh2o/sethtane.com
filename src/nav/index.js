@@ -3,22 +3,24 @@ module.exports = NavView
 var hg = require('hyperglue2')
 var template = require('./index.html')
 var router = require('uri-router')
-var match = require('uri-router/lib/firstmatch')
 var db = require('../db')
 var PageView = require('../pages')
 
-NavView.reuse = true
+NavView.reusable = true
 
 function NavView () {
+  if (!(this instanceof NavView)) {
+    return new NavView()
+  }
   this.el = hg(template)
   this.search = this.el.querySelector('input')
   this.search.addEventListener('keyup', this._onkeydown.bind(this))
   NavView.sharedInstance = this
 }
 
-NavView.prototype.show = function (r) {
-  if (this.search.value !== r.location.query.q) {
-    this.search.value = r.location.query.q || ''
+NavView.prototype.show = function (uri) {
+  if (this.search.value !== uri.query.q) {
+    this.search.value = uri.query.q || ''
   }
 
   var pathname = window.location.pathname

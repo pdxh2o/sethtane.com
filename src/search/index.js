@@ -6,12 +6,17 @@ var NavView = require('../nav')
 var db = require('../db')
 var slug = require('../slug')
 
+SearchView.reusable = true
+
 function SearchView () {
+  if (!(this instanceof SearchView)) {
+    return new SearchView()
+  }
   this.el = hg(template)
 }
 
-SearchView.prototype.show = function (r) {
-  var query = r.location.query.q
+SearchView.prototype.show = function (uri) {
+  var query = uri.query.q
   if (!query || query.length < 3) {
     this.lastQuery = null
     return this.render()

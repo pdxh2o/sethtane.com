@@ -22,9 +22,9 @@ function WorksView () {
   document.addEventListener('click', this._onclick)
 }
 
-WorksView.prototype.show = function (r) {
+WorksView.prototype.show = function (uri) {
   var single = slug.match(window.location.pathname.split('/')[2])
-  var filter = r.location.query.theme || ''
+  var filter = uri.query.theme || ''
   var selectedTheme = false
   var themes = db.data['yqjJs1SH60YQUs6g4sQ4E'].items.map(function (theme, i) {
     if (filter === theme.title) selectedTheme = theme

@@ -5,22 +5,18 @@
   "scripts": {
     "dev": ". ./env.sh && dev",
     "build": ". ./env.sh && build-css && build-js && [ \"$NODE_ENV\" = \"production\" ] && npm run minify",
-    "minify": "cp share/build.js share/build.debug.js; uglifyjs share/build.debug.js > share/build.js",
+    "minify": "cp public/build.js public/build.debug.js; uglifyjs public/build.debug.js > public/build.js",
     "start": "npm run build && app-server",
     "migrate": ". ./env.sh && node bin/migrate.js",
     "migrate-field": ". ./env.sh && node bin/migrate-field.js"
   },
   "dependencies": {
-    "build-css": "jessetane/build-css#1.0.6",
-    "build-js": "jessetane/build-js#1.0.1",
-    "hyperglue2": "^2.0.0",
+    "dev": "jessetane/dev#3.2.1",
+    "hyperglue2": "^3.0.0",
     "marked": "^0.3.5",
+    "queue": "^3.1.0",
     "uglify-js": "^2.6.1",
-    "uri-router": "jessetane/uri-router#0.0.5"
-  },
-  "devDependencies": {
-    "dev": "jessetane/dev",
-    "queue": "^3.1.0"
+    "uri-router": "^3.0.3"
   },
   "repository": "https://github.com/pdxh2o/sethtane.com",
   "author": "jesse.tane@gmail.com"

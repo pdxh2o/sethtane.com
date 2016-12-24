@@ -12,7 +12,7 @@ var templates = {
   news: require('../news')
 }
 
-PageView.reuse = true
+PageView.reusable = true
 
 PageView.findByURL = function (url) {
   var best = { title: 'Not Found', url: '' }
@@ -34,6 +34,9 @@ PageView.findByURL = function (url) {
 }
 
 function PageView () {
+  if (!(this instanceof PageView)) {
+    return new PageView()
+  }
   this.el = hg(template)
   this.slideshows = []
   this._onmutation = this._onmutation.bind(this)
