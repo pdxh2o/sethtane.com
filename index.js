@@ -11,6 +11,11 @@ Element.prototype.removeChild = function (child) {
   return removeChild.call(this, child.el || child)
 }
 
+var insertBefore = Element.prototype.insertBefore
+Element.prototype.insertBefore = function (a, b) {
+  return insertBefore.call(this, a.el || a, b.el || b)
+}
+
 db.fetch(function (err) {
   if (err) throw err
 
