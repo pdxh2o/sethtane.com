@@ -52,6 +52,7 @@
 #works #index .work a {
   display: block;
   border: 0;
+  flex-shrink: 0;
 }
 
 #works #index .work a:hover {
