@@ -93,6 +93,7 @@
   line-height: 1.5;
   margin-left: 10px;
   flex-basis: 30%;
+  flex-grow: 1;
 }
 
 #works #index .work #meta #title {
