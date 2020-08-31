@@ -161,7 +161,12 @@ WorksView.prototype.show = function (uri) {
 WorksView.prototype._onclick = function (evt) {
   var target = evt.target
   if (target.parentElement.classList.contains('audio')) {
-    Array.from(this.el.querySelectorAll('audio')).forEach(el => el.pause())
+    Array.from(this.el.querySelectorAll('audio')).forEach(el => {
+      el.pause()
+      el.currentTime = 0
+      el.nextElementSibling.classList.add('hidden')
+      el.nextElementSibling.nextElementSibling.classList.remove('hidden')
+    })
     if (target.id === 'play') {
       target.classList.add('hidden')
       target.nextElementSibling.classList.remove('hidden')
