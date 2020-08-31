@@ -99,6 +99,9 @@
 #works #index .work #meta #title {
   font-weight: bold;
   font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #works.single #index {
@@ -129,6 +132,39 @@
   max-width: 100%;
 }
 
+#works #index .work .audio {
+  display: none;
+  pointer-events: none;
+}
+
+#works.single #index .work .audio {
+  display: block;
+}
+
+#works #index .work .audio:first-of-type {
+  margin-left: auto;
+}
+
+#works #index .work .audio button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: none;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+#works #index .work .audio button > * {
+  pointer-events: none;
+}
+
+#works #index .work .audio button svg {
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   #works {
     display: flex;
@@ -157,9 +193,14 @@
 
   #works.single #index .work #meta {
     display: flex;
+    align-items: center;
   }
 
   #works.single #index .work #meta > * {
     margin-left: 15px;
+  }
+
+  #works #index .work .audio:first-of-type {
+    margin-left: 1rem;
   }
 }

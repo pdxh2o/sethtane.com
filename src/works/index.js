@@ -16,6 +16,19 @@ var sizes = {
   '6': 700
 }
 
+var audioPlayImage = `<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0"  width="500" height="500" viewBox="0 0 75 75">
+<path d="M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z"
+style="stroke:#111;stroke-width:5;stroke-linejoin:round;fill:#111;"
+/>
+<path d="M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6" style="fill:none;stroke:#111;stroke-width:5;stroke-linecap:round"/>`
+
+var audioStopImage = `<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="500" height="500" viewBox="0 0 75 75"
+stroke="#111" stroke-width="5">
+<path d="m39,14-17,15H6V48H22l17,15z" fill="#111" stroke-linejoin="round"/>
+<path d="m49,26 20,24m0-24-20,24" fill="none" stroke-linecap="round"/>`
+
 function WorksView () {
   this.el = hg(template)
   this._onclick = this._onclick.bind(this)
@@ -64,6 +77,12 @@ WorksView.prototype.show = function (uri) {
         url += '&fit=max&w=' + sizes[size] + '&h=' + sizes[size]
       }
     }
+    var title = work.title
+    if (work.audioUrl) {
+      work.audioUrl.forEach(url => {
+        title += `<div class=audio><audio src=${process.env.CDN_URL + url}></audio><button id=play class=hidden>${audioPlayImage}</button><button>${audioStopImage}</button></div>`
+      })
+    }
     return {
       _class: {
         'hidden': !single && filter && !themes.match(filter)
@@ -86,7 +105,9 @@ WorksView.prototype.show = function (uri) {
           '_5': size === '5'
         }
       },
-      '#title': work.title,
+      '#title': {
+        _html: title,
+      },
       '#date': new Date(work.date).getFullYear(),
       '#medium': work.medium,
       '#dimensions': work.dimensions
@@ -137,7 +158,18 @@ WorksView.prototype.show = function (uri) {
 }
 
 WorksView.prototype._onclick = function (evt) {
-  if (!this.el.classList.contains('single')) {
+  var target = evt.target
+  if (target.parentElement.classList.contains('audio')) {
+    Array.from(this.el.querySelectorAll('audio')).forEach(el => el.pause())
+    if (target.id === 'play') {
+      target.classList.add('hidden')
+      target.nextElementSibling.classList.remove('hidden')
+    } else {
+      target.classList.add('hidden')
+      target.previousElementSibling.classList.remove('hidden')
+      target.parentElement.firstElementChild.play(0)
+    }
+  } else if (!this.el.classList.contains('single')) {
     this._clicked = evt.target.getAttribute('data-id')
   }
 }
