@@ -20,7 +20,7 @@ HomeView.prototype.show = function () {
       'img': {
         _attr: {
           'lazy-src': process.env.RESIZE_URL +
-            process.env.CDN_URL + theme.attachmentUrl +
+            theme.attachmentUrl +
             '?q=' + process.env.IMAGE_QUALITY +
             '&fit=crop&w=560&h=420'
         }
