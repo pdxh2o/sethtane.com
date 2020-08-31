@@ -1,7 +1,7 @@
-.slideshow {
+.slideshow ul {
   position: relative;
   width: 100%;
-  padding-top: 60%;
+  height: 60vw;
   margin-bottom: 70px;
 }
 
@@ -12,10 +12,12 @@
   opacity: 0;
   top: 0;
   transition: opacity 1s ease-out;
+  pointer-events: none;
 }
 
 .slideshow .slide.active {
   opacity: 1;
+  pointer-events: all;
 }
 
 .slideshow .slide img {
@@ -30,4 +32,12 @@
   margin-top: 10px;
   font-size: 14px;
   text-align: center;
+}
+
+.slideshow #controls {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.slideshow #controls button {
 }

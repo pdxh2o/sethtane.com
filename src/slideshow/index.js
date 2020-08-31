@@ -3,8 +3,6 @@ module.exports = SlideshowView
 var hg = require('hyperglue2')
 var template = require('./index.html')
 
-var lastSlide = {}
-
 function SlideshowView (data) {
   var el = hg(template, {
     'li': data.slides.map(function (slide) {
@@ -28,37 +26,64 @@ function SlideshowView (data) {
       }
     })
   })
-  el.id = data.id
-  el.index = lastSlide[data.id] || 0
+  el.index = 0
   el.start = start.bind(el)
   el.stop = stop.bind(el)
   el.show = show.bind(el)
   el.prev = prev.bind(el)
   el.next = next.bind(el)
   el.hide = el.stop
+  el.addEventListener('click', onclick.bind(el))
+  Object.defineProperty(el, 'slides', {
+    get: () => Array.from(el.querySelectorAll('li'))
+  })
   return el
+}
+
+function onclick (evt) {
+  console.log(evt.target, evt.currentTarget)
+  if (evt.target.tagName !== 'BUTTON') return
+  this[evt.target.id]()
 }
 
 function start () {
   this.show()
-  this._timer = window.setInterval(this.next, 4000)
+  if (this.playing) return
+  this.playing = true
+  this.querySelector('#stop').classList.remove('hidden')
+  this.querySelector('#start').classList.add('hidden')
+  this._timer = window.setTimeout(this.next, 4000)
 }
 
 function stop () {
-  clearInterval(this._timer)
+  this.playing = false
+  this.querySelector('#stop').classList.add('hidden')
+  this.querySelector('#start').classList.remove('hidden')
+  clearTimeout(this._timer)
   delete this._timer
 }
 
 function show () {
-  lastSlide[this.id] = this.index
-  Array.prototype.slice.call(this.childNodes).forEach(function (slide) {
-    slide.classList.remove('active')
-  })
-  var nextSlide = this.childNodes[this.index]
-  var nextNextSlide = nextSlide.nextSibling
+  var slides = this.slides
+  slides.forEach(slide => slide.classList.remove('active'))
+  var nextSlide = slides[this.index]
   nextSlide.classList.add('active')
   unlazy(nextSlide)
-  unlazy(nextNextSlide)
+  var last = slides.length - 1
+  if (this.index === 0) {
+    unlazy(slides[last])
+    unlazy(slides[this.index + 1])
+  } else if (this.index === last) {
+    unlazy(slides[this.index - 1])
+    unlazy(slides[0])
+  } else {
+    unlazy(slides[this.index - 1])
+    unlazy(slides[this.index + 1])
+  }
+  if (this.playing) {
+    clearTimeout(this._timer)
+    this._timer = window.setTimeout(this.next, 4000)
+  }
 }
 
 function unlazy (node) {
@@ -75,11 +100,11 @@ function unlazy (node) {
 }
 
 function prev () {
-  if (--this.index < 0) this.index = this.childNodes.length - 1
+  if (--this.index < 0) this.index = this.slides.length - 1
   this.show()
 }
 
 function next () {
-  if (++this.index >= this.childNodes.length) this.index = 0
+  if (++this.index >= this.slides.length) this.index = 0
   this.show()
 }
