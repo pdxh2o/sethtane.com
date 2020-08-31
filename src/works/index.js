@@ -84,6 +84,7 @@ WorksView.prototype.show = function (uri) {
       })
     }
     return {
+      _ref: work,
       _class: {
         'hidden': !single && filter && !themes.match(filter)
       },
@@ -144,7 +145,7 @@ WorksView.prototype.show = function (uri) {
     description = ''
   } else if (works.length === 1) {
     var work = works[0]
-    title = work['#title'] + ' | ' + title
+    title = work._ref.title + ' | ' + title
     description = work['#medium'] + ' ' + work['#date'] + ' ' + work['#dimensions']
     description = description[0].toUpperCase() + description.slice(1)
   } else if (filter) {
