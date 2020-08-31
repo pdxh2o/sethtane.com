@@ -21,7 +21,7 @@ HomeView.prototype.show = function () {
         _attr: {
           'lazy-src': process.env.RESIZE_URL +
             theme.attachmentUrl +
-            '?q=' + process.env.IMAGE_QUALITY +
+            '?q=' + (theme.quality || process.env.IMAGE_QUALITY) +
             '&fit=crop&w=560&h=420'
         }
       },

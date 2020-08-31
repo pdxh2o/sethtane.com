@@ -35,7 +35,7 @@ NewsView.prototype.show = function (r) {
             },
             'img': {
               _attr: {
-                'lazy-src': makeImageUrl(block.attachmentUrl)
+                'lazy-src': makeImageUrl(block)
               }
             }
           } : null,
@@ -51,7 +51,7 @@ NewsView.prototype.show = function (r) {
           '#image': block.attachmentUrl ? {
             'img': {
               _attr: {
-                'lazy-src': makeImageUrl(block.attachmentUrl)
+                'lazy-src': makeImageUrl(block)
               }
             }
           } : null,
@@ -138,9 +138,9 @@ NewsView.prototype._onclick = function (evt) {
   }
 }
 
-function makeImageUrl (url, size) {
+function makeImageUrl (block) {
   return process.env.RESIZE_URL +
-    url +
-    '?q=' + process.env.IMAGE_URL +
+    block.attachmentUrl +
+    '?q=' + (block.quality || process.env.IMAGE_QUALITY) +
     '&fit=max&w=1400&h=1400'
 }

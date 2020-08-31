@@ -70,7 +70,7 @@ WorksView.prototype.show = function (uri) {
     var size = String(work.size || '1')
     var url = work.attachmentUrl || null
     if (url) {
-      url = process.env.RESIZE_URL + url + '?q=' + process.env.IMAGE_QUALITY
+      url = process.env.RESIZE_URL + url + '?q=' + (work.quality || process.env.IMAGE_QUALITY)
       if (single) {
         url += '&fit=max&w=1600&h=1600'
       } else {
