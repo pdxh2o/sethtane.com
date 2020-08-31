@@ -55,7 +55,7 @@ WorksView.prototype.show = function (uri) {
   }).map(function (work) {
     var themes = work.themes ? work.themes.map(function (c) { return c.title }).join(',') : ''
     var size = String(work.size || '1')
-    var url = work.attachmentUrl ? process.env.CDN_URL + work.attachmentUrl : null
+    var url = work.attachmentUrl || null
     if (url) {
       url = process.env.RESIZE_URL + url + '?q=' + process.env.IMAGE_QUALITY
       if (single) {

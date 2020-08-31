@@ -15,7 +15,7 @@ function SlideshowView (data) {
         },
         'img': {
           _attr: {
-            'lazy-src': process.env.RESIZE_URL + process.env.CDN_URL + slide.attachmentUrl + '?q=' + process.env.IMAGE_QUALITY
+            'lazy-src': process.env.RESIZE_URL + slide.attachmentUrl + '?q=' + process.env.IMAGE_QUALITY
           }
         },
         '#caption': isWork ? null: slide.caption,

@@ -62,7 +62,7 @@ SearchView.prototype.show = function (uri) {
     var match = result.matches[0]
     var preview = getPreviewParts(match.index, match[0].length, match.input)
     var count = result.matches.length
-    var url = result.item.attachmentUrl ? process.env.CDN_URL + result.item.attachmentUrl : null
+    var url = result.item.attachmentUrl || null
     if (url) {
       url = process.env.RESIZE_URL + url + '?q=' + process.env.IMAGE_QUALITY + '&fit=fill&w=120&h=120'
     }
