@@ -41,7 +41,6 @@ function SlideshowView (data) {
 }
 
 function onclick (evt) {
-  console.log(evt.target, evt.currentTarget)
   if (evt.target.tagName !== 'BUTTON') return
   this[evt.target.id]()
 }
