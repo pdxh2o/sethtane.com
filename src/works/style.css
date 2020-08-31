@@ -168,6 +168,7 @@
   padding: 7px;
   top: 0;
   left: 0;
+  fill: #333;
 }
 
 @media only screen and (min-width: 768px) {
