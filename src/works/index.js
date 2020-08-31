@@ -80,7 +80,7 @@ WorksView.prototype.show = function (uri) {
     var title = work.title
     if (work.audioUrl) {
       work.audioUrl.forEach(url => {
-        title += `<div class=audio><audio src=${process.env.CDN_URL + url}></audio><button id=play class=hidden>${audioPlayImage}</button><button>${audioStopImage}</button></div>`
+        title += `<div class=audio><audio src=${process.env.CDN_URL + url} loop></audio><button id=play class=hidden>${audioPlayImage}</button><button>${audioStopImage}</button></div>`
       })
     }
     return {
