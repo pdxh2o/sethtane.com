@@ -59,7 +59,7 @@ NewsView.prototype.show = function (r) {
                 hidden: false
               },
               _attr: {
-                src: process.env.CDN_URL + block.videoUrl
+                src: process.env.CDN_URL + block.videoUrl + '#t=0.01'
               }
             } : null
           } : null,
