@@ -85,6 +85,10 @@ img {
   border: 1px solid #111;
 }
 
+video {
+  width: 100%;
+}
+
 a[href] img:hover {
   opacity: 0.9;
 }

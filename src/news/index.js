@@ -48,12 +48,20 @@ NewsView.prototype.show = function (r) {
         }
       } else if (block.type === 'images') {
         return {
-          '#image': block.attachmentUrl ? {
-            'img': {
+          '#image': block.attachmentUrl || block.videoUrl ? {
+            'img': block.videoUrl ? null : {
               _attr: {
                 'lazy-src': makeImageUrl(block)
               }
-            }
+            },
+            'video': block.videoUrl ? {
+              _class: {
+                hidden: false
+              },
+              _attr: {
+                src: process.env.CDN_URL + block.videoUrl
+              }
+            } : null
           } : null,
           '#work-meta': null,
           '#caption': block.caption ? {
