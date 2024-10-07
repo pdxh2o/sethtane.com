@@ -108,7 +108,6 @@ SearchView.prototype.match = function (item, query) {
   var matches = []
   for (var field in item) {
     if (field === 'id' || field === 'type' || field === 'attachmentUrl') continue
-    if (item.type === 'works' && field === 'title') continue
     field = item[field]
     if (Array.isArray(field)) {
       if (typeof field[0] === 'object') {
@@ -146,7 +145,7 @@ function tokenizeQuery (query) {
       term !== 'then' &&
       term !== 'there'
   }).map(function (term) {
-    return new RegExp('\\b' + escapeRegExp(term) + '\\b', 'ig')
+    return new RegExp('\\b' + escapeRegExp(term), 'ig')
   })
 }
 
