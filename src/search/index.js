@@ -146,7 +146,7 @@ function tokenizeQuery (query) {
       term !== 'then' &&
       term !== 'there'
   }).map(function (term) {
-    return new RegExp('\\b' + escapeRegExp(term) + '\\b', 'ig')
+    return new RegExp('\\b' + escapeRegExp(term), 'ig')
   })
 }
 
