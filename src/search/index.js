@@ -108,7 +108,6 @@ SearchView.prototype.match = function (item, query) {
   var matches = []
   for (var field in item) {
     if (field === 'id' || field === 'type' || field === 'attachmentUrl') continue
-    if (item.type === 'works' && field === 'title') continue
     field = item[field]
     if (Array.isArray(field)) {
       if (typeof field[0] === 'object') {
