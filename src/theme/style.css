@@ -81,6 +81,7 @@ input {
 }
 
 img {
+  display: block;
   background-color: #CCC;
   border: 1px solid #111;
 }
